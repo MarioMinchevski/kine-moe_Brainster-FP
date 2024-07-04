@@ -1,0 +1,107 @@
+@use '../../css/abstracts/mixins.scss' as *;
+@use '../../css/abstracts/variables.scss' as *;
+
+.search__header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    margin-left: -12.75rem;
+    padding-top: 4.25rem;
+    margin-bottom: 4.7rem;
+
+    .search-input-box {
+        position: relative;
+        min-width: 675px;
+
+        .search-input {
+            width: 100%;
+            border: 2px solid $color-base;
+            background-color: transparent;
+            border-radius: $border-radius-primary;
+            padding: 0.725rem;
+            padding-left: 3.5rem;
+            color: $color-base;
+            font-weight: $font-weight-bold;
+            font-size: $font-size-larger;
+            outline: none;
+            transition: all 200ms ease-in-out;
+
+            &::placeholder {
+                font-size: $font-size-larger;
+                font-style: italic;
+                font-weight: $font-weight-medium;
+                color: $color-base-secondary;
+            }
+
+            &:hover,
+            &:focus {
+                border: 2px solid $color-primary;
+            }
+        }
+
+        .search-input-icon {
+            position: absolute;
+            left: 1rem;
+            top: 50%;
+            transform: translate(0, -50%);
+            font-size: 1.75rem;
+
+            background-color: transparent;
+            border: none;
+            color: $color-base;
+            cursor: pointer;
+
+            transition: 200ms ease-in-out all;
+
+            &:hover {
+                color: $color-primary;
+            }
+        }
+    }
+}
+
+.similar-results {
+    .similar-results__title {
+        font-weight: $font-weight-bold;
+        font-size: $font-size-headidng-smaller;
+        font-style: italic;
+        line-height: 32px;
+        margin-bottom: 1.5rem;
+    }
+
+    .similar-results__items-wrap {
+        padding-right: 12.75rem;
+
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+        grid-template-rows: auto;
+        column-gap: 2rem;
+        row-gap: 1.75rem;
+
+    }
+}
+
+.search-initial-text {
+    text-align: center;
+    padding-right: 12.75rem;
+
+    font-size: $font-size-headidng-small;
+    font-weight: $font-weight-bold;
+
+    margin-bottom: 4rem;
+}
+
+.no-search-results-found {
+    padding-right: 12.75rem;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
+
+    font-size: $font-size-headidng-smaller;
+    font-weight: $font-weight-bold;
+
+    margin-bottom: 4rem;
+}

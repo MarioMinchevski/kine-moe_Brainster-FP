@@ -1,0 +1,26 @@
+@use '../../../css/abstracts/mixins.scss' as *;
+@use '../../../css/abstracts/variables.scss' as *;
+
+.pagination-btn-wrap {
+    margin-left: -12.75rem;
+    margin-top: 12.75rem;
+    display: flex;
+    justify-content: center;
+
+    .pagination-btn {
+        font-size: $font-size-medium;
+        line-height: 24px;
+        color: $color-senary;
+        background-color: $color-septenary;
+        border: none;
+        outline: none;
+        border-radius: $border-radius-quinary;
+        padding: 0.75rem 10.55rem;
+        cursor: pointer;
+        transition: all 200ms ease-in-out;
+
+        &:hover {
+            background-color: darken($color-septenary, 7%)
+        }
+    }
+}

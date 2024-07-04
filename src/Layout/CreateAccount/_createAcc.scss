@@ -1,0 +1,489 @@
+@use '../../css/abstracts/mixins.scss' as *;
+@use '../../css/abstracts/variables.scss' as *;
+
+.create-acc-form {
+    position: relative;
+    width: 100%;
+    min-height: 100%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    .step-wrap {
+        position: relative;
+        width: 100%;
+        min-height: 100%;
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .next-prev-buttons-wrap {
+        margin-top: 3.25rem;
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+        position: absolute;
+        bottom: 7rem;
+
+        .create-acc-btn {
+            background-color: $color-primary;
+            color: $color-base;
+
+            font-size: $font-size-headidng-extra-small;
+            font-weight: $font-weight-bold;
+
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+            padding: 0.65rem 2rem;
+            border: none;
+            border-radius: $border-radius-primary;
+
+            cursor: pointer;
+            transition: 200ms all ease-in-out;
+
+            &:hover {
+                background-color: darken($color-primary, 7%);
+            }
+        }
+    }
+
+    .progress-bar {
+        position: absolute;
+        bottom: -3.5rem;
+        left: 50%;
+        transform: translateX(-50%);
+
+        height: 1.25rem;
+        border-radius: 100ch;
+        width: 865px;
+
+        border: 2px solid $color-base;
+        padding: 0.3rem;
+
+        .progress-bar__inner {
+            height: 100%;
+            background-color: $color-primary;
+            border-radius: 100ch;
+
+            transition: all 1000ms ease-in-out
+        }
+    }
+
+    .validation-message {
+        position: absolute;
+        top: 2rem;
+        left: 50%;
+        transform: translateX(-50%);
+
+        color: $color-secondary;
+        font-weight: $font-weight-bold;
+        font-size: $font-size-medium;
+
+        opacity: 0;
+        transition: all 200ms ease-in-out;
+
+        &.visible {
+            opacity: 1;
+        }
+    }
+
+    .radio-button-wrap {
+        display: flex;
+        align-items: center;
+        gap: 2.375rem;
+        margin-bottom: 5rem;
+
+        .radio-btn {
+            width: 375px;
+            padding-block: 1.75rem;
+            padding-inline: 1.875rem;
+
+            border: 4px solid $color-base;
+            border-radius: 27px;
+            display: flex;
+            flex-direction: column;
+            font-size: $font-size-headidng-small;
+            text-align: left;
+
+            transition: all 250ms ease-in-out;
+            cursor: pointer;
+
+            &:hover {
+                border: 4px solid $color-primary;
+
+                .custom-radiot-btn {
+                    border: 3px solid $color-primary !important;
+                }
+            }
+
+            &.checked {
+                border: 4px solid $color-primary;
+            }
+
+            .radio-btn__inner-wrap {
+                display: flex;
+                align-items: center;
+                width: 100%;
+                justify-content: space-between;
+                margin-bottom: 0.75rem;
+
+                position: relative;
+
+                input[type="radio"] {
+                    display: none;
+                }
+
+                .custom-radiot-btn {
+                    width: 43px;
+                    height: 43px;
+                    border-radius: 100ch;
+                    border: 3px solid $color-base;
+                    cursor: pointer;
+                    position: relative;
+
+                    transition: all 250ms ease-in-out;
+
+                    &::after {
+                        position: absolute;
+                        content: '';
+                        left: 50%;
+                        top: 50%;
+                        transform: translate(-50%, -50%) scale(0);
+                        height: 25px;
+                        width: 25px;
+                        border-radius: 100ch;
+                        background-color: $color-base;
+                        transition: all 250ms ease-in-out;
+                    }
+                }
+
+                input[type="radio"]:checked+.custom-radiot-btn::after {
+                    transform: translate(-50%, -50%) scale(1);
+                    background-color: $color-primary;
+                }
+
+                input[type="radio"]:checked+.custom-radiot-btn {
+                    border: 3px solid $color-primary;
+                }
+            }
+
+            img {
+                width: 80px;
+                height: 80px;
+            }
+        }
+    }
+
+    //titles
+
+    .create-acc-main-title {
+        font-size: $font-size-headidng-large;
+        font-weight: $font-weight-medium;
+        font-family: $font-family-secondary;
+        margin-bottom: 3.25rem;
+        line-height: 1;
+    }
+
+    .creacte-acc-title {
+        font-size: $font-size-headidng-small;
+        font-weight: $font-weight-bold;
+        margin-bottom: 1.625rem;
+        line-height: 1;
+    }
+
+    .create-acc-title-large {
+        font-size: $font-size-headidng-main;
+        font-weight: $font-weight-bold;
+        line-height: 1;
+        margin-bottom: .75rem;
+    }
+
+    .creacte-acc-title-small {
+        font-size: $font-size-larger;
+        font-weight: $font-weight-bold;
+        margin-bottom: 1.625rem;
+        line-height: 1;
+    }
+
+    .creacte-acc-subtitle {
+        margin-top: -1.5rem;
+        font-style: italic;
+        font-size: $font-size-medium;
+    }
+
+    // buttons
+
+    .interests-buttons-wrap,
+    .cultural-preferences-wrap,
+    .content-recommendation-wrap,
+    .privacy-settings-wrap {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        max-width: 855px;
+        gap: 1rem 2.5rem;
+
+        .interest-button,
+        .cultural-preferences-button,
+        .content-recommendation-button,
+        .privacy-settings-button {
+            width: 164px;
+            font-size: $font-size-medium;
+            font-weight: $font-weight-bold;
+            color: $color-base;
+            padding-block: 0.5rem;
+            background-color: transparent;
+            border: 1px solid $color-base;
+            border-radius: 100ch;
+            cursor: pointer;
+            transition: all 200ms ease-in-out;
+
+            &:hover {
+                background-color: rgba($color-secondary, 0.3);
+            }
+
+            &.selected {
+                background-color: $color-primary
+            }
+        }
+    }
+
+    .interests-buttons-wrap {
+        margin-bottom: 9rem;
+    }
+
+    .cultural-preferences-wrap {
+        margin-bottom: 7rem;
+        max-width: unset;
+        margin-top: 1.75rem;
+        margin-bottom: 10rem;
+    }
+
+    .content-recommendation-wrap {
+        max-width: 980px;
+        margin-bottom: 10rem;
+    }
+
+    .privacy-settings-wrap {
+        margin-top: 1rem;
+        margin-bottom: 13rem;
+    }
+
+    .experience-buttons-wrap {
+        display: flex;
+        align-items: center;
+        gap: 1.5rem;
+
+        .experience-button {
+            background-color: transparent;
+            border-radius: 100ch;
+            border: 1px solid $color-base;
+
+            cursor: pointer;
+            transition: all 200ms ease-in-out;
+            display: flex;
+            align-items: center;
+            gap: 0.625rem;
+
+            padding: 0.625rem 1.5rem;
+
+            span {
+                font-size: $font-size-headidng-small;
+                font-weight: $font-weight-bold;
+            }
+
+            &:hover {
+                background-color: rgba($color-secondary, 0.3);
+            }
+
+            &.selected {
+                background-color: $color-primary
+            }
+
+            .hidden-radio {
+                position: absolute;
+                opacity: 0;
+                width: 0;
+                height: 0;
+            }
+        }
+    }
+
+    .profile-setup-wrap {
+        display: flex;
+        align-items: center;
+        gap: 5rem;
+        width: 67%;
+        margin-bottom: 5rem;
+
+        .profile-setup-img-box {
+            width: 380px;
+            height: 380px;
+            border-radius: 100ch;
+            position: relative;
+
+            background-image: url('/multiStepForm/profile-picture.png');
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+
+            position: relative;
+            overflow: hidden;
+
+            input[type="file"] {
+                border-radius: 100ch;
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                opacity: 0;
+                cursor: pointer;
+            }
+
+            .upload-photo-text {
+                position: absolute;
+                left: 0;
+                bottom: 0;
+                cursor: pointer;
+
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                text-align: center;
+                gap: 0.625rem;
+                padding-bottom: 2.6rem;
+                padding-top: 1.625rem;
+                background-color: rgba($bg-color-primary, 0.2);
+                width: 100%;
+
+                span {
+                    font-size: $font-size-medium;
+                    font-weight: $font-weight-bold;
+                    line-height: 1;
+                    color: $color-base;
+                    transition: all 200ms ease-in-out;
+                }
+            }
+        }
+
+        .profile-setup-inputs-box {
+            flex: 1;
+
+            display: flex;
+            flex-direction: column;
+            gap: 1.5rem;
+
+            .input-group {
+                width: 100%;
+
+                .input-control {
+                    padding: 0.75rem 1rem;
+                    width: 100%;
+                    background-color: $color-base;
+                    border: 3px solid #333333;
+                    border-radius: $border-radius-quaternary;
+                    box-shadow: $box-shadow-primary;
+                    outline: none;
+
+                    transition: all 200ms ease-in-out;
+
+                    &:hover,
+                    &:focus {
+                        border: 3px solid $color-primary;
+                    }
+
+                    &::placeholder {
+                        color: rgba($color-senary, 0.6);
+                    }
+                }
+            }
+
+            textarea {
+                min-height: 124px;
+            }
+        }
+    }
+
+    .accout-setup-avatar-box {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 4rem;
+
+        .account-setup-avatar-box__img-box {
+            width: 167px;
+            height: 167px;
+            border-radius: 100ch;
+            overflow: hidden;
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-image: url('/multiStepForm/profile-picture-1.png');
+        }
+
+        span {
+            font-size: $font-size-headidng-smallest;
+            font-weight: $font-weight-bold;
+            line-height: 50px;
+        }
+    }
+
+    .create-acc-notifications-wrap {
+        display: flex;
+        flex-direction: column;
+        gap: 2.625rem;
+        margin-top: 7.875rem;
+        margin-bottom: 12rem;
+
+        .notification-label {
+            font-size: $font-size-headidng-small;
+            display: flex;
+            align-items: center;
+            gap: 1.25rem;
+            cursor: pointer;
+
+            input[type="checkbox"] {
+                position: relative;
+                width: 42px;
+                height: 42px;
+                background-color: $color-base;
+                border-radius: 3px;
+                cursor: pointer;
+                appearance: none;
+                transition: all 0.2s ease-in-out;
+            }
+
+            input[type="checkbox"]:checked {
+                background-color: $color-primary;
+                transition: all 0.2s ease-in-out;
+            }
+
+            input[type="checkbox"]::before {
+                content: '';
+                position: absolute;
+                top: 4px;
+                left: 15px;
+                width: 12px;
+                height: 28px;
+                border: 4px solid transparent;
+                border-left: none;
+                border-top: none;
+                transform: rotate(45deg) scale(1);
+                transition: all 0.2s ease-in-out;
+            }
+
+            input[type="checkbox"]:checked:before {
+                border-color: $color-base;
+                transform: rotate(45deg) scale(1);
+            }
+        }
+    }
+}

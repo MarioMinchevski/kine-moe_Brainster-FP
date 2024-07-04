@@ -1,0 +1,221 @@
+@use '../../css/abstracts/variables.scss' as *;
+
+body,
+html {
+    overflow-x: hidden;
+}
+
+body {
+    font-family: $font-family-base;
+    min-height: 100vh;
+    background-color: $bg-color-primary;
+    color: $color-base;
+}
+
+.homepage-main,
+.movies-main,
+.search-page,
+.community-page,
+.community-page-post {
+    padding-left: 12.75rem;
+}
+
+.homepage,
+.movies {
+    header {
+        margin-bottom: calc(100vh + 1.25rem);
+    }
+}
+
+.sign-in,
+.sign-up,
+.create-account,
+.page-not-found {
+    background-image: url('/signInSignUp/sign-in-image.png');
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+
+    .sign-in-wrap,
+    .sign-up-wrap {
+        min-width: 1202px;
+        overflow: hidden;
+        background-color: $bg-color-secondary;
+        border-radius: $border-radius-tertiary;
+
+        display: flex;
+    }
+
+    .create-account-wrap {
+        min-width: 83.125%;
+        max-width: 83.125%;
+        min-height: 82vh;
+
+        background-color: $bg-color-secondary;
+        border-radius: 42px;
+        box-shadow: 3px 10px 5.7px rgba(179, 179, 179, 0.7);
+        display: flex;
+    }
+}
+
+.artist-overview,
+.movie-overview {
+    min-height: 100vh;
+    background-image: url('/artistOverview/artist-overview-bg-image.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.share-overlay {
+    position: fixed;
+    background-color: rgba($bg-color-primary , 0.5);
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 9999999;
+}
+
+.share-box {
+    position: fixed;
+    z-index: 99999999;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+
+    background-color: $bg-color-quaternary;
+    padding: 2rem;
+    border-radius: $border-radius-quaternary;
+    min-width: 600px;
+    display: flex;
+    flex-direction: column;
+
+    .share-box__helper-wrap {
+        position: relative;
+
+        .close-btn {
+            position: absolute;
+            top: 0rem;
+            right: 0rem;
+            border: none;
+            background-color: transparent;
+
+            font-size: $font-size-medium;
+            font-weight: $font-weight-bold;
+            color: $color-base;
+
+            cursor: pointer;
+            transition: all 200ms ease-in-out;
+
+            &:hover {
+                color: $color-primary;
+            }
+        }
+    }
+
+    .share-box__header {
+        display: flex;
+        flex: 1;
+        padding-bottom: 2rem;
+        border-bottom: 2px solid rgba($color-base , $alpha: .6);
+
+        h2 {
+            margin: 0 auto;
+            font-size: $font-size-headidng-small;
+            font-weight: $font-weight-bold;
+            line-height: 1;
+        }
+
+        .close-btn {
+            border: none;
+            background-color: transparent;
+
+            font-size: $font-size-medium;
+            font-weight: $font-weight-bold;
+            color: $color-base;
+
+            cursor: pointer;
+            transition: all 200ms ease-in-out;
+
+            &:hover {
+                color: $color-primary;
+            }
+        }
+    }
+
+    .share-box__body {
+        margin-top: 1rem;
+        position: relative;
+
+        h3 {
+            font-size: $font-size-large;
+            font-weight: $font-weight-bold;
+            line-height: 1;
+            margin-bottom: 1rem;
+        }
+
+        .icons-wrap {
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+        }
+
+        .link-box {
+            margin-top: 2rem;
+
+            flex: 1;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            background-color: rgba($color-base, $alpha: .3);
+            padding: 0.5rem 1rem;
+            border-radius: $border-radius-primary;
+
+            p {
+                font-size: $font-size-small;
+                font-weight: $font-weight-bold;
+            }
+
+            .copy-btn {
+                background-color: $color-primary;
+                padding: 0.25rem 0.5rem;
+                border: none;
+                color: $color-base;
+                font-size: $font-size-small;
+                font-weight: $font-weight-bold;
+                border-radius: $border-radius-secondary;
+
+                transition: all 200ms ease-in-out;
+                cursor: pointer;
+
+                &:hover {
+                    background-color: darken($color-primary, 7%);
+                }
+            }
+
+
+        }
+    }
+}
+
+.link-copied {
+    position: absolute;
+    left: 50%;
+    bottom: -6rem;
+    font-size: $font-size-base;
+    transform: translate(-50%, 0%);
+    padding: 0.5rem;
+    background-color: $bg-color-quaternary;
+    border-radius: 5px;
+}

@@ -1,0 +1,32 @@
+    @use '../../css/abstracts/mixins.scss' as *;
+    @use '../../css/abstracts/variables.scss' as *;
+
+    .movie-banner {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 7.875rem;
+
+        .movie-banner__img-box {
+            position: relative;
+            z-index: 111;
+
+            &::after {
+                content: '';
+                position: absolute;
+                left: 50%;
+                top: 50%;
+
+                transform: translate(-50%, -50%);
+
+                height: 120%;
+                width: 120%;
+
+                background: radial-gradient(50% 50% at 50% 50%,
+                        #FFFFFF 0%,
+                        rgba(220, 220, 220, 0.657922) 20.7%,
+                        rgba(153, 153, 153, 0) 100%);
+                background-blend-mode: screen;
+                z-index: -1;
+            }
+        }
+    }

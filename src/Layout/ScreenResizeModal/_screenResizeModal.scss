@@ -1,0 +1,72 @@
+@use '../../css/abstracts/mixins.scss' as *;
+@use '../../css/abstracts/variables.scss' as *;
+
+.screen-resize-message-box {
+    z-index: 9999999999999;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 50%;
+
+    background-color: rgba($bg-color-secondary, 1);
+    border-radius: $border-radius-tertiary;
+
+    padding: 2.5rem 3rem;
+    // min-width: 1150px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+    .screen-resize-img-box {
+        width: 300px;
+        margin-bottom: 2rem;
+    }
+
+    .screen-resize-text-box {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    h1 {
+        font-size: $font-size-headidng-medium;
+        font-weight: $font-weight-bold;
+        margin-bottom: 1.5rem;
+        line-height: 65px;
+    }
+
+    p {
+        font-size: $font-size-medium;
+        font-weight: $font-weight-bold;
+        text-align: center;
+        margin-bottom: 2rem;
+
+        &:last-child {
+            margin-bottom: 0;
+        }
+    }
+
+    a {
+        transition: all 200ms ease-in-out;
+        color: $color-secondary;
+
+        &:hover {
+            color: darken($color-secondary, 10%);
+        }
+    }
+}
+
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    min-height: 100%;
+    min-width: 100%;
+    background-color: rgba($color-senary, $alpha: .75);
+    z-index: 99999999;
+}

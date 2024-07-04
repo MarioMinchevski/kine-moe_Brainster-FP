@@ -1,0 +1,2663 @@
+{
+  "dummyMoviesData": [
+    {
+      "id": "1",
+      "title": "Zrtva",
+      "thumbnailImage": "/mediaThumbnails/zrtva.png",
+      "headerImage": "zrtva-header.png",
+      "description": "A gripping tale of struggle and sacrifice that captivates the audience from the very beginning.",
+      "rating": 7.5,
+      "genres": [
+        "Drama",
+        "Thriller",
+        "Action",
+        "Horror"
+      ],
+      "contentRating": "R",
+      "cast": [
+        "Igor Djambazov",
+        "Rade Sherbedzija",
+        "Toni Mihajlovski"
+      ],
+      "director": "Marko Savić",
+      "writers": [
+        "Lazar Nikolić",
+        "Marija Popović"
+      ],
+      "producers": [
+        "Nikola Stojanović"
+      ],
+      "cinematography": "Vladimir Janković",
+      "editing": "Jelena Kovačević",
+      "comments": [
+        {
+          "id": "1",
+          "text": "Пробен коментар 1",
+          "time": 5,
+          "user": "Симе",
+          "image": "/watchPage/random-user-1.png"
+        },
+        {
+          "id": "2",
+          "text": "haha very funny",
+          "time": 40,
+          "user": "Peter",
+          "image": "/watchPage/random-user-2.png"
+        },
+        {
+          "id": "3",
+          "text": "haha very funny",
+          "time": 43,
+          "user": "Наташа",
+          "image": "/watchPage/random-user-2.png"
+        },
+        {
+          "id": "4",
+          "text": "Колку добра сцена...",
+          "time": 60,
+          "user": "Наташа",
+          "image": "/watchPage/random-user-1.png"
+        },
+        {
+          "id": "5",
+          "text": "This is second comment",
+          "time": 90,
+          "user": "Симе",
+          "image": "/watchPage/random-user-1.png"
+        }
+      ],
+      "costumeDesign": "Ivana Petrović"
+    },
+    {
+      "id": "2",
+      "title": "Ambulance",
+      "thumbnailImage": "/mediaThumbnails/ambulance.png",
+      "headerImage": "ambulance-header.png",
+      "description": "An intense and heart-pounding experience that keeps the viewers on the edge of their seats.",
+      "rating": 6.9,
+      "genres": [
+        "Action",
+        "Thriller"
+      ],
+      "contentRating": "PG-13",
+      "cast": [
+        "Igor Djambazov",
+        "Rade Sherbedzija",
+        "Sashko Kocev",
+        "Toni Mihajlovski"
+      ],
+      "director": "Ivan Dimitrijević",
+      "writers": [
+        "Zoran Stojanović",
+        "Milena Marković"
+      ],
+      "producers": [
+        "Jovan Pavlović"
+      ],
+      "cinematography": "Svetlana Jovanović",
+      "editing": "Luka Milinković",
+      "comments": [
+        {
+          "id": "1",
+          "text": "Пробен коментар 1",
+          "time": 5,
+          "user": "Симе",
+          "image": "/watchPage/random-user-1.png"
+        },
+        {
+          "id": "2",
+          "text": "haha very funny",
+          "time": 40,
+          "user": "Peter",
+          "image": "/watchPage/random-user-2.png"
+        },
+        {
+          "id": "3",
+          "text": "haha very funny",
+          "time": 43,
+          "user": "Наташа",
+          "image": "/watchPage/random-user-2.png"
+        },
+        {
+          "id": "4",
+          "text": "Колку добра сцена...",
+          "time": 60,
+          "user": "Наташа",
+          "image": "/watchPage/random-user-1.png"
+        },
+        {
+          "id": "5",
+          "text": "This is second comment",
+          "time": 90,
+          "user": "Симе",
+          "image": "/watchPage/random-user-1.png"
+        }
+      ],
+      "costumeDesign": "Jasmina Petrović"
+    },
+    {
+      "id": "3",
+      "title": "Balkankan",
+      "thumbnailImage": "/mediaThumbnails/balkankan.png",
+      "headerImage": "balkankan-header.png",
+      "description": "A dark and gritty story that dives deep into the complexities of human nature.",
+      "rating": 8.1,
+      "genres": [
+        "Drama",
+        "Crime"
+      ],
+      "contentRating": "R",
+      "cast": [
+        "Igor Djambazov",
+        "Sashko Kocev",
+        "Toni Mihajlovski"
+      ],
+      "director": "Milutin Pavlović",
+      "writers": [
+        "Vladimir Stojanović",
+        "Ana Jovanović"
+      ],
+      "producers": [
+        "Petar Marković"
+      ],
+      "cinematography": "Jelena Petrović",
+      "editing": "Marko Stefanović",
+      "comments": [
+        {
+          "id": "1",
+          "text": "Пробен коментар 1",
+          "time": 5,
+          "user": "Симе",
+          "image": "/watchPage/random-user-1.png"
+        },
+        {
+          "id": "2",
+          "text": "haha very funny",
+          "time": 40,
+          "user": "Peter",
+          "image": "/watchPage/random-user-2.png"
+        },
+        {
+          "id": "3",
+          "text": "haha very funny",
+          "time": 43,
+          "user": "Наташа",
+          "image": "/watchPage/random-user-2.png"
+        },
+        {
+          "id": "4",
+          "text": "Колку добра сцена...",
+          "time": 60,
+          "user": "Наташа",
+          "image": "/watchPage/random-user-1.png"
+        },
+        {
+          "id": "5",
+          "text": "This is second comment",
+          "time": 90,
+          "user": "Симе",
+          "image": "/watchPage/random-user-1.png"
+        }
+      ],
+      "costumeDesign": "Maja Kovačević"
+    },
+    {
+      "id": "4",
+      "title": "Balkanska Mecha",
+      "thumbnailImage": "/mediaThumbnails/balkanska-mecha.png",
+      "headerImage": "balkanska-mecha-header.png",
+      "description": "A journey through the traditions and challenges of the Balkan region with memorable characters.",
+      "rating": 7.8,
+      "genres": [
+        "Adventure",
+        "Drama"
+      ],
+      "contentRating": "PG-13",
+      "cast": [
+        "Igor Djambazov",
+        "Rade Sherbedzija"
+      ],
+      "director": "Dušan Marković",
+      "writers": [
+        "Milica Stojanović",
+        "Nikola Pavlović"
+      ],
+      "producers": [
+        "Marko Petrović"
+      ],
+      "cinematography": "Ana Janković",
+      "editing": "Milan Stojanović",
+      "comments": [
+        {
+          "id": "1",
+          "text": "Пробен коментар 1",
+          "time": 5,
+          "user": "Симе",
+          "image": "/watchPage/random-user-1.png"
+        },
+        {
+          "id": "2",
+          "text": "haha very funny",
+          "time": 40,
+          "user": "Peter",
+          "image": "/watchPage/random-user-2.png"
+        },
+        {
+          "id": "3",
+          "text": "haha very funny",
+          "time": 43,
+          "user": "Наташа",
+          "image": "/watchPage/random-user-2.png"
+        },
+        {
+          "id": "4",
+          "text": "Колку добра сцена...",
+          "time": 60,
+          "user": "Наташа",
+          "image": "/watchPage/random-user-1.png"
+        },
+        {
+          "id": "5",
+          "text": "This is second comment",
+          "time": 90,
+          "user": "Симе",
+          "image": "/watchPage/random-user-1.png"
+        }
+      ],
+      "costumeDesign": "Ivana Petrović"
+    },
+    {
+      "id": "5",
+      "title": "Bistra Voda",
+      "thumbnailImage": "/mediaThumbnails/bistra-voda.png",
+      "headerImage": "bistra-voda-header.png",
+      "description": "A beautiful story set against the backdrop of serene landscapes and heartwarming moments.",
+      "rating": 7.2,
+      "genres": [
+        "Drama",
+        "Romance"
+      ],
+      "contentRating": "PG",
+      "cast": [
+        "Sashko Kocev",
+        "Toni Mihajlovski"
+      ],
+      "director": "Luka Nikolić",
+      "writers": [
+        "Jelena Jovanović",
+        "Stefan Petrović"
+      ],
+      "producers": [
+        "Jelena Marković"
+      ],
+      "cinematography": "Marko Kovačević",
+      "editing": "Maja Pavlović",
+      "comments": [
+        {
+          "id": "1",
+          "text": "Пробен коментар 1",
+          "time": 5,
+          "user": "Симе",
+          "image": "/watchPage/random-user-1.png"
+        },
+        {
+          "id": "2",
+          "text": "haha very funny",
+          "time": 40,
+          "user": "Peter",
+          "image": "/watchPage/random-user-2.png"
+        },
+        {
+          "id": "3",
+          "text": "haha very funny",
+          "time": 43,
+          "user": "Наташа",
+          "image": "/watchPage/random-user-2.png"
+        },
+        {
+          "id": "4",
+          "text": "Колку добра сцена...",
+          "time": 60,
+          "user": "Наташа",
+          "image": "/watchPage/random-user-1.png"
+        },
+        {
+          "id": "5",
+          "text": "This is second comment",
+          "time": 90,
+          "user": "Симе",
+          "image": "/watchPage/random-user-1.png"
+        }
+      ],
+      "costumeDesign": "Sanja Petrović"
+    },
+    {
+      "id": "6",
+      "title": "Bushava Azbuka",
+      "thumbnailImage": "/mediaThumbnails/bushava-azbuka.png",
+      "headerImage": "bushava-azbuka-header.png",
+      "description": "An educational and entertaining journey through the alphabet that will captivate young minds.",
+      "rating": 6.7,
+      "genres": [
+        "Family",
+        "Animation",
+        "Kids",
+        "Comedy"
+      ],
+      "contentRating": "G",
+      "cast": [
+        "Igor Djambazov",
+        "Toni Mihajlovski"
+      ],
+      "director": "Jovan Nikoloski",
+      "writers": [
+        "Marija Kostić",
+        "Stefan Pavlovski"
+      ],
+      "producers": [
+        "Ana Petrovska"
+      ],
+      "cinematography": "Jelena Markovska",
+      "editing": "Nikola Stojanovski",
+      "comments": [
+        {
+          "id": "1",
+          "text": "Пробен коментар 1",
+          "time": 5,
+          "user": "Симе",
+          "image": "/watchPage/random-user-1.png"
+        },
+        {
+          "id": "2",
+          "text": "haha very funny",
+          "time": 40,
+          "user": "Peter",
+          "image": "/watchPage/random-user-2.png"
+        },
+        {
+          "id": "3",
+          "text": "haha very funny",
+          "time": 43,
+          "user": "Наташа",
+          "image": "/watchPage/random-user-2.png"
+        },
+        {
+          "id": "4",
+          "text": "Колку добра сцена...",
+          "time": 60,
+          "user": "Наташа",
+          "image": "/watchPage/random-user-1.png"
+        },
+        {
+          "id": "5",
+          "text": "This is second comment",
+          "time": 90,
+          "user": "Симе",
+          "image": "/watchPage/random-user-1.png"
+        }
+      ],
+      "costumeDesign": "Maja Petrovska"
+    },
+    {
+      "id": "7",
+      "title": "Dajte Muzika",
+      "thumbnailImage": "/mediaThumbnails/dajte-muzika.png",
+      "headerImage": "dajte-muzika-header.png",
+      "description": "A musical adventure that brings joy and energy to audiences of all ages with catchy tunes and fun performances.",
+      "rating": 7.3,
+      "genres": [
+        "Musical",
+        "Comedy",
+        "Kids"
+      ],
+      "contentRating": "PG",
+      "cast": [
+        "Igor Djambazov",
+        "Toni Mihajlovski"
+      ],
+      "director": "Luka Markovski",
+      "writers": [
+        "Nikola Petrovski",
+        "Ana Ivanovska"
+      ],
+      "producers": [
+        "Stefan Jovanovski"
+      ],
+      "cinematography": "Marija Kostić",
+      "editing": "Marko Petrovski",
+      "comments": [
+        {
+          "id": "1",
+          "text": "Пробен коментар 1",
+          "time": 5,
+          "user": "Симе",
+          "image": "/watchPage/random-user-1.png"
+        },
+        {
+          "id": "2",
+          "text": "haha very funny",
+          "time": 40,
+          "user": "Peter",
+          "image": "/watchPage/random-user-2.png"
+        },
+        {
+          "id": "3",
+          "text": "haha very funny",
+          "time": 43,
+          "user": "Наташа",
+          "image": "/watchPage/random-user-2.png"
+        },
+        {
+          "id": "4",
+          "text": "Колку добра сцена...",
+          "time": 60,
+          "user": "Наташа",
+          "image": "/watchPage/random-user-1.png"
+        },
+        {
+          "id": "5",
+          "text": "This is second comment",
+          "time": 90,
+          "user": "Симе",
+          "image": "/watchPage/random-user-1.png"
+        }
+      ],
+      "costumeDesign": "Jasmina Nikoloska"
+    },
+    {
+      "id": "8",
+      "title": "Da Ti Kazham",
+      "thumbnailImage": "/mediaThumbnails/da-ti-kazham.png",
+      "headerImage": "da-ti-kazham-header.png",
+      "description": "A thought-provoking film that challenges perceptions and opens up conversations about societal norms.",
+      "rating": 8,
+      "genres": [
+        "Drama",
+        "Mystery"
+      ],
+      "contentRating": "R",
+      "cast": [
+        "Sashko Kocev",
+        "Toni Mihajlovski"
+      ],
+      "director": "Marko Dimitrijevski",
+      "writers": [
+        "Lazar Nikolovski",
+        "Milena Popovska"
+      ],
+      "producers": [
+        "Nikola Stojanovski"
+      ],
+      "cinematography": "Vladimir Jankovski",
+      "editing": "Jelena Kovačeva",
+      "comments": [
+        {
+          "id": "1",
+          "text": "Пробен коментар 1",
+          "time": 5,
+          "user": "Симе",
+          "image": "/watchPage/random-user-1.png"
+        },
+        {
+          "id": "2",
+          "text": "haha very funny",
+          "time": 40,
+          "user": "Peter",
+          "image": "/watchPage/random-user-2.png"
+        },
+        {
+          "id": "3",
+          "text": "haha very funny",
+          "time": 43,
+          "user": "Наташа",
+          "image": "/watchPage/random-user-2.png"
+        },
+        {
+          "id": "4",
+          "text": "Колку добра сцена...",
+          "time": 60,
+          "user": "Наташа",
+          "image": "/watchPage/random-user-1.png"
+        },
+        {
+          "id": "5",
+          "text": "This is second comment",
+          "time": 90,
+          "user": "Симе",
+          "image": "/watchPage/random-user-1.png"
+        }
+      ],
+      "costumeDesign": "Ivana Petrovska"
+    },
+    {
+      "id": "9",
+      "title": "Do Balchak",
+      "thumbnailImage": "/mediaThumbnails/do-balchak.png",
+      "headerImage": "do-balchak-header.png",
+      "description": "A bold and unfiltered story that delves deep into the lives of characters living on the edge.",
+      "rating": 7.5,
+      "genres": [
+        "Action",
+        "Thriller"
+      ],
+      "contentRating": "R",
+      "cast": [
+        "Stefan Petrovski",
+        "Maja Kostić"
+      ],
+      "director": "Ivan Dimitrijevski",
+      "writers": [
+        "Zoran Stojanovski",
+        "Milena Markovska"
+      ],
+      "producers": [
+        "Jovan Pavlovski"
+      ],
+      "cinematography": "Svetlana Jovanovska",
+      "editing": "Luka Milinkovski",
+      "comments": [
+        {
+          "id": "1",
+          "text": "Пробен коментар 1",
+          "time": 5,
+          "user": "Симе",
+          "image": "/watchPage/random-user-1.png"
+        },
+        {
+          "id": "2",
+          "text": "haha very funny",
+          "time": 40,
+          "user": "Peter",
+          "image": "/watchPage/random-user-2.png"
+        },
+        {
+          "id": "3",
+          "text": "haha very funny",
+          "time": 43,
+          "user": "Наташа",
+          "image": "/watchPage/random-user-2.png"
+        },
+        {
+          "id": "4",
+          "text": "Колку добра сцена...",
+          "time": 60,
+          "user": "Наташа",
+          "image": "/watchPage/random-user-1.png"
+        },
+        {
+          "id": "5",
+          "text": "This is second comment",
+          "time": 90,
+          "user": "Симе",
+          "image": "/watchPage/random-user-1.png"
+        }
+      ],
+      "costumeDesign": "Jasmina Petrovska"
+    },
+    {
+      "id": "10",
+      "title": "Fifi",
+      "thumbnailImage": "/mediaThumbnails/fifi.png",
+      "headerImage": "fifi-header.png",
+      "description": "A heartwarming and adventurous tale about a small dog and its journey to find its place in the world.",
+      "rating": 7,
+      "genres": [
+        "Family",
+        "Adventure",
+        "Kids",
+        "Comedy"
+      ],
+      "contentRating": "PG",
+      "cast": [
+        "Sashko Kocev",
+        "Toni Mihajlovski"
+      ],
+      "director": "Milutin Pavlovski",
+      "writers": [
+        "Vladimir Stojanovski",
+        "Ana Jovanovska"
+      ],
+      "producers": [
+        "Petar Markovski"
+      ],
+      "cinematography": "Jelena Petrovska",
+      "editing": "Marko Stefanovski",
+      "comments": [
+        {
+          "id": "1",
+          "text": "Пробен коментар 1",
+          "time": 5,
+          "user": "Симе",
+          "image": "/watchPage/random-user-1.png"
+        },
+        {
+          "id": "2",
+          "text": "haha very funny",
+          "time": 40,
+          "user": "Peter",
+          "image": "/watchPage/random-user-2.png"
+        },
+        {
+          "id": "3",
+          "text": "haha very funny",
+          "time": 43,
+          "user": "Наташа",
+          "image": "/watchPage/random-user-2.png"
+        },
+        {
+          "id": "4",
+          "text": "Колку добра сцена...",
+          "time": 60,
+          "user": "Наташа",
+          "image": "/watchPage/random-user-1.png"
+        },
+        {
+          "id": "5",
+          "text": "This is second comment",
+          "time": 90,
+          "user": "Симе",
+          "image": "/watchPage/random-user-1.png"
+        }
+      ],
+      "costumeDesign": "Maja Kovačevska"
+    },
+    {
+      "id": "11",
+      "title": "Homo",
+      "thumbnailImage": "/mediaThumbnails/homo.png",
+      "headerImage": "homo-header.png",
+      "description": "An exploration of the human condition through a series of poignant and thought-provoking events.",
+      "rating": 8.2,
+      "genres": [
+        "Drama",
+        "Art",
+        "Horror"
+      ],
+      "contentRating": "R",
+      "cast": [
+        "Rade Sherbedzija",
+        "Sashko Kocev"
+      ],
+      "director": "Marko Nikoloski",
+      "writers": [
+        "Jovan Stojanovski",
+        "Milica Kovačeva"
+      ],
+      "producers": [
+        "Ana Jovanovska"
+      ],
+      "cinematography": "Nikola Petrovski",
+      "editing": "Sanja Markovska",
+      "comments": [
+        {
+          "id": "1",
+          "text": "Пробен коментар 1",
+          "time": 5,
+          "user": "Симе",
+          "image": "/watchPage/random-user-1.png"
+        },
+        {
+          "id": "2",
+          "text": "haha very funny",
+          "time": 40,
+          "user": "Peter",
+          "image": "/watchPage/random-user-2.png"
+        },
+        {
+          "id": "3",
+          "text": "haha very funny",
+          "time": 43,
+          "user": "Наташа",
+          "image": "/watchPage/random-user-2.png"
+        },
+        {
+          "id": "4",
+          "text": "Колку добра сцена...",
+          "time": 60,
+          "user": "Наташа",
+          "image": "/watchPage/random-user-1.png"
+        },
+        {
+          "id": "5",
+          "text": "This is second comment",
+          "time": 90,
+          "user": "Симе",
+          "image": "/watchPage/random-user-1.png"
+        }
+      ],
+      "costumeDesign": "Jasmina Petrovska"
+    },
+    {
+      "id": "12",
+      "title": "Honeyland",
+      "thumbnailImage": "/mediaThumbnails/honeyland.png",
+      "headerImage": "honeyland-header.png",
+      "description": "A visually stunning journey through a remote and untouched landscape, capturing the beauty of nature.",
+      "rating": 7.8,
+      "genres": [
+        "Documentary",
+        "Nature"
+      ],
+      "contentRating": "PG",
+      "cast": [
+        "Rade Sherbedzija",
+        "Sashko Kocev",
+        "Toni Mihajlovski"
+      ],
+      "director": "Tamara Markovska",
+      "writers": [
+        "Jovan Stojanovski",
+        "Milena Markovska"
+      ],
+      "producers": [
+        "Nikola Kovačev"
+      ],
+      "cinematography": "Marko Petrovski",
+      "editing": "Sanja Kostić",
+      "comments": [
+        {
+          "id": "1",
+          "text": "Пробен коментар 1",
+          "time": 5,
+          "user": "Симе",
+          "image": "/watchPage/random-user-1.png"
+        },
+        {
+          "id": "2",
+          "text": "haha very funny",
+          "time": 40,
+          "user": "Peter",
+          "image": "/watchPage/random-user-2.png"
+        },
+        {
+          "id": "3",
+          "text": "haha very funny",
+          "time": 43,
+          "user": "Наташа",
+          "image": "/watchPage/random-user-2.png"
+        },
+        {
+          "id": "4",
+          "text": "Колку добра сцена...",
+          "time": 60,
+          "user": "Наташа",
+          "image": "/watchPage/random-user-1.png"
+        },
+        {
+          "id": "5",
+          "text": "This is second comment",
+          "time": 90,
+          "user": "Симе",
+          "image": "/watchPage/random-user-1.png"
+        }
+      ],
+      "costumeDesign": "Ana Petrovska"
+    },
+    {
+      "id": "13",
+      "title": "Jaz Sem Frenk",
+      "thumbnailImage": "/mediaThumbnails/jaz-sem-frenk.png",
+      "headerImage": "jaz-sem-frenk-header.png",
+      "description": "A story of resilience and courage as one man faces insurmountable challenges with determination.",
+      "rating": 7.5,
+      "genres": [
+        "Drama",
+        "Biography"
+      ],
+      "contentRating": "PG-13",
+      "cast": [
+        "Igor Djambazov",
+        "Rade Sherbedzija",
+        "Sashko Kocev"
+      ],
+      "director": "Goran Stojanovski",
+      "writers": [
+        "Jasmina Markovska",
+        "Nikola Petrovski"
+      ],
+      "producers": [
+        "Ana Markovska"
+      ],
+      "cinematography": "Petar Kovačev",
+      "editing": "Stefan Petrovski",
+      "comments": [
+        {
+          "id": "1",
+          "text": "Пробен коментар 1",
+          "time": 5,
+          "user": "Симе",
+          "image": "/watchPage/random-user-1.png"
+        },
+        {
+          "id": "2",
+          "text": "haha very funny",
+          "time": 40,
+          "user": "Peter",
+          "image": "/watchPage/random-user-2.png"
+        },
+        {
+          "id": "3",
+          "text": "haha very funny",
+          "time": 43,
+          "user": "Наташа",
+          "image": "/watchPage/random-user-2.png"
+        },
+        {
+          "id": "4",
+          "text": "Колку добра сцена...",
+          "time": 60,
+          "user": "Наташа",
+          "image": "/watchPage/random-user-1.png"
+        },
+        {
+          "id": "5",
+          "text": "This is second comment",
+          "time": 90,
+          "user": "Симе",
+          "image": "/watchPage/random-user-1.png"
+        }
+      ],
+      "costumeDesign": "Marija Petrovska"
+    },
+    {
+      "id": "14",
+      "title": "Juzni Vetar",
+      "thumbnailImage": "/mediaThumbnails/juzni-vetar.png",
+      "headerImage": "juzni-vetar-header.png",
+      "description": "A fast-paced thriller that keeps the audience on the edge of their seats from start to finish.",
+      "rating": 8,
+      "genres": [
+        "Action",
+        "Thriller"
+      ],
+      "contentRating": "R",
+      "cast": [
+        "Igor Djambazov",
+        "Rade Sherbedzija",
+        "Sashko Kocev"
+      ],
+      "director": "Luka Jovanovski",
+      "writers": [
+        "Zoran Kovačev",
+        "Ana Kostić"
+      ],
+      "producers": [
+        "Jelena Pavlovska"
+      ],
+      "cinematography": "Marko Stojanovski",
+      "editing": "Nikola Petrovski",
+      "comments": [
+        {
+          "id": "1",
+          "text": "Пробен коментар 1",
+          "time": 5,
+          "user": "Симе",
+          "image": "/watchPage/random-user-1.png"
+        },
+        {
+          "id": "2",
+          "text": "haha very funny",
+          "time": 40,
+          "user": "Peter",
+          "image": "/watchPage/random-user-2.png"
+        },
+        {
+          "id": "3",
+          "text": "haha very funny",
+          "time": 43,
+          "user": "Наташа",
+          "image": "/watchPage/random-user-2.png"
+        },
+        {
+          "id": "4",
+          "text": "Колку добра сцена...",
+          "time": 60,
+          "user": "Наташа",
+          "image": "/watchPage/random-user-1.png"
+        },
+        {
+          "id": "5",
+          "text": "This is second comment",
+          "time": 90,
+          "user": "Симе",
+          "image": "/watchPage/random-user-1.png"
+        }
+      ],
+      "costumeDesign": "Jasmina Markovska"
+    },
+    {
+      "id": "15",
+      "title": "Juzni Veter Na Granici",
+      "thumbnailImage": "/mediaThumbnails/juzni-veter-na-granici.png",
+      "headerImage": "juzni-veter-na-granici-header.png",
+      "description": "A gripping sequel that continues the thrilling story of the characters facing new and dangerous obstacles.",
+      "rating": 7.7,
+      "genres": [
+        "Action",
+        "Drama"
+      ],
+      "contentRating": "R",
+      "cast": [
+        "Igor Djambazov",
+        "Sashko Kocev"
+      ],
+      "director": "Goran Markovski",
+      "writers": [
+        "Ana Jovanovska",
+        "Jovan Stojanovski"
+      ],
+      "producers": [
+        "Petar Stojanovski"
+      ],
+      "cinematography": "Luka Petrovski",
+      "editing": "Marija Stojanova",
+      "comments": [
+        {
+          "id": "1",
+          "text": "Пробен коментар 1",
+          "time": 5,
+          "user": "Симе",
+          "image": "/watchPage/random-user-1.png"
+        },
+        {
+          "id": "2",
+          "text": "haha very funny",
+          "time": 40,
+          "user": "Peter",
+          "image": "/watchPage/random-user-2.png"
+        },
+        {
+          "id": "3",
+          "text": "haha very funny",
+          "time": 43,
+          "user": "Наташа",
+          "image": "/watchPage/random-user-2.png"
+        },
+        {
+          "id": "4",
+          "text": "Колку добра сцена...",
+          "time": 60,
+          "user": "Наташа",
+          "image": "/watchPage/random-user-1.png"
+        },
+        {
+          "id": "5",
+          "text": "This is second comment",
+          "time": 90,
+          "user": "Симе",
+          "image": "/watchPage/random-user-1.png"
+        }
+      ],
+      "costumeDesign": "Ivana Petrovska"
+    },
+    {
+      "id": "16",
+      "title": "Kino Ljubov",
+      "thumbnailImage": "/mediaThumbnails/kino-ljubov.png",
+      "headerImage": "kino-ljubov-header.png",
+      "description": "A romantic comedy that brings laughter and love to the big screen with charming characters and witty dialogue.",
+      "rating": 7.4,
+      "genres": [
+        "Romance",
+        "Comedy",
+        "Kids"
+      ],
+      "contentRating": "PG-13",
+      "cast": [
+        "Igor Djambazov",
+        "Rade Sherbedzija"
+      ],
+      "director": "Luka Jovanovski",
+      "writers": [
+        "Ana Ivanovska",
+        "Jovan Stojanovski"
+      ],
+      "producers": [
+        "Sanja Petrovska"
+      ],
+      "cinematography": "Marko Jovanovski",
+      "editing": "Vladimir Stojanovski",
+      "comments": [
+        {
+          "id": "1",
+          "text": "Пробен коментар 1",
+          "time": 5,
+          "user": "Симе",
+          "image": "/watchPage/random-user-1.png"
+        },
+        {
+          "id": "2",
+          "text": "haha very funny",
+          "time": 40,
+          "user": "Peter",
+          "image": "/watchPage/random-user-2.png"
+        },
+        {
+          "id": "3",
+          "text": "haha very funny",
+          "time": 43,
+          "user": "Наташа",
+          "image": "/watchPage/random-user-2.png"
+        },
+        {
+          "id": "4",
+          "text": "Колку добра сцена...",
+          "time": 60,
+          "user": "Наташа",
+          "image": "/watchPage/random-user-1.png"
+        },
+        {
+          "id": "5",
+          "text": "This is second comment",
+          "time": 90,
+          "user": "Симе",
+          "image": "/watchPage/random-user-1.png"
+        }
+      ],
+      "costumeDesign": "Ivana Petrovska"
+    },
+    {
+      "id": "17",
+      "title": "Krvava Svadba",
+      "thumbnailImage": "/mediaThumbnails/krvava-svadba.png",
+      "headerImage": "krvava-svadba-header.png",
+      "description": "A dark and intense thriller that unravels a haunting story of betrayal and revenge at a wedding ceremony.",
+      "rating": 7.8,
+      "genres": [
+        "Thriller",
+        "Mystery",
+        "Action"
+      ],
+      "contentRating": "R",
+      "cast": [
+        "Igor Djambazov",
+        "Rade Sherbedzija"
+      ],
+      "director": "Goran Stojanovski",
+      "writers": [
+        "Jasmina Markovska",
+        "Nikola Petrovski"
+      ],
+      "producers": [
+        "Jovan Jankovski"
+      ],
+      "cinematography": "Petar Kovačev",
+      "editing": "Elena Stojanova",
+      "comments": [
+        {
+          "id": "1",
+          "text": "Пробен коментар 1",
+          "time": 5,
+          "user": "Симе",
+          "image": "/watchPage/random-user-1.png"
+        },
+        {
+          "id": "2",
+          "text": "haha very funny",
+          "time": 40,
+          "user": "Peter",
+          "image": "/watchPage/random-user-2.png"
+        },
+        {
+          "id": "3",
+          "text": "haha very funny",
+          "time": 43,
+          "user": "Наташа",
+          "image": "/watchPage/random-user-2.png"
+        },
+        {
+          "id": "4",
+          "text": "Колку добра сцена...",
+          "time": 60,
+          "user": "Наташа",
+          "image": "/watchPage/random-user-1.png"
+        },
+        {
+          "id": "5",
+          "text": "This is second comment",
+          "time": 90,
+          "user": "Симе",
+          "image": "/watchPage/random-user-1.png"
+        }
+      ],
+      "costumeDesign": "Marija Petrovska"
+    },
+    {
+      "id": "18",
+      "title": "Kukja Na Srekjata",
+      "thumbnailImage": "/mediaThumbnails/kukja-na-srekjata.png",
+      "headerImage": "kukja-na-srekjata-header.png",
+      "description": "A heartwarming family film that follows the journey of a young girl discovering her true path to happiness.",
+      "rating": 7.2,
+      "genres": [
+        "Family",
+        "Adventure",
+        "Kids",
+        "Podcast",
+        "Comedy"
+      ],
+      "contentRating": "PG",
+      "cast": [
+        "Sashko Kocev",
+        "Toni Mihajlovski"
+      ],
+      "director": "Marko Nikoloski",
+      "writers": [
+        "Milica Kovačeva",
+        "Vladimir Jovanovski"
+      ],
+      "producers": [
+        "Jasmina Petrovska"
+      ],
+      "cinematography": "Nikola Petrovski",
+      "editing": "Sanja Kostić",
+      "comments": [
+        {
+          "id": "1",
+          "text": "Пробен коментар 1",
+          "time": 5,
+          "user": "Симе",
+          "image": "/watchPage/random-user-1.png"
+        },
+        {
+          "id": "2",
+          "text": "haha very funny",
+          "time": 40,
+          "user": "Peter",
+          "image": "/watchPage/random-user-2.png"
+        },
+        {
+          "id": "3",
+          "text": "haha very funny",
+          "time": 43,
+          "user": "Наташа",
+          "image": "/watchPage/random-user-2.png"
+        },
+        {
+          "id": "4",
+          "text": "Колку добра сцена...",
+          "time": 60,
+          "user": "Наташа",
+          "image": "/watchPage/random-user-1.png"
+        },
+        {
+          "id": "5",
+          "text": "This is second comment",
+          "time": 90,
+          "user": "Симе",
+          "image": "/watchPage/random-user-1.png"
+        }
+      ],
+      "costumeDesign": "Ana Markovska"
+    },
+    {
+      "id": "19",
+      "title": "Lazar",
+      "thumbnailImage": "/mediaThumbnails/lazar.png",
+      "headerImage": "lazar-header.png",
+      "description": "A captivating drama that follows the life of Lazar, a man caught in the complexities of his own destiny.",
+      "rating": 8.1,
+      "genres": [
+        "Drama",
+        "Biography"
+      ],
+      "contentRating": "PG-13",
+      "cast": [
+        "Igor Djambazov",
+        "Rade Sherbedzija"
+      ],
+      "director": "Goran Markovski",
+      "writers": [
+        "Nikola Petrovski",
+        "Milica Kovačeva"
+      ],
+      "producers": [
+        "Jovan Petrovski"
+      ],
+      "cinematography": "Petar Kovačev",
+      "editing": "Elena Kovačevska",
+      "comments": [
+        {
+          "id": "1",
+          "text": "Пробен коментар 1",
+          "time": 5,
+          "user": "Симе",
+          "image": "/watchPage/random-user-1.png"
+        },
+        {
+          "id": "2",
+          "text": "haha very funny",
+          "time": 40,
+          "user": "Peter",
+          "image": "/watchPage/random-user-2.png"
+        },
+        {
+          "id": "3",
+          "text": "haha very funny",
+          "time": 43,
+          "user": "Наташа",
+          "image": "/watchPage/random-user-2.png"
+        },
+        {
+          "id": "4",
+          "text": "Колку добра сцена...",
+          "time": 60,
+          "user": "Наташа",
+          "image": "/watchPage/random-user-1.png"
+        },
+        {
+          "id": "5",
+          "text": "This is second comment",
+          "time": 90,
+          "user": "Симе",
+          "image": "/watchPage/random-user-1.png"
+        }
+      ],
+      "costumeDesign": "Ivana Petrovska"
+    },
+    {
+      "id": "20",
+      "title": "Liberation Of Skopje",
+      "thumbnailImage": "/mediaThumbnails/liberation-of-skopje.png",
+      "headerImage": "liberation-of-skopje-header.png",
+      "description": "An epic historical drama that depicts the struggle and triumph of the people of Skopje during wartime.",
+      "rating": 8.5,
+      "genres": [
+        "Historical",
+        "Drama",
+        "Podcast"
+      ],
+      "contentRating": "R",
+      "cast": [
+        "Rade Sherbedzija",
+        "Sashko Kocev"
+      ],
+      "director": "Luka Stojanovski",
+      "writers": [
+        "Vladimir Petrovski",
+        "Marija Markovska"
+      ],
+      "producers": [
+        "Sanja Petrovska"
+      ],
+      "cinematography": "Marko Kovačevski",
+      "editing": "Petar Stojanovski",
+      "comments": [
+        {
+          "id": "1",
+          "text": "Пробен коментар 1",
+          "time": 5,
+          "user": "Симе",
+          "image": "/watchPage/random-user-1.png"
+        },
+        {
+          "id": "2",
+          "text": "haha very funny",
+          "time": 40,
+          "user": "Peter",
+          "image": "/watchPage/random-user-2.png"
+        },
+        {
+          "id": "3",
+          "text": "haha very funny",
+          "time": 43,
+          "user": "Наташа",
+          "image": "/watchPage/random-user-2.png"
+        },
+        {
+          "id": "4",
+          "text": "Колку добра сцена...",
+          "time": 60,
+          "user": "Наташа",
+          "image": "/watchPage/random-user-1.png"
+        },
+        {
+          "id": "5",
+          "text": "This is second comment",
+          "time": 90,
+          "user": "Симе",
+          "image": "/watchPage/random-user-1.png"
+        }
+      ],
+      "costumeDesign": "Marija Petrovska"
+    },
+    {
+      "id": "21",
+      "title": "Makedonska Saga",
+      "thumbnailImage": "/mediaThumbnails/makedonska-saga.png",
+      "headerImage": "makedonska-saga-header.png",
+      "description": "An epic tale that follows the history and culture of Macedonia through the eyes of its people.",
+      "rating": 8.3,
+      "genres": [
+        "Historical",
+        "Drama"
+      ],
+      "contentRating": "PG-13",
+      "cast": [
+        "Rade Sherbedzija",
+        "Sashko Kocev",
+        "Toni Mihajlovski"
+      ],
+      "director": "Nikola Stojanovski",
+      "writers": [
+        "Luka Kostić",
+        "Marija Petrovska"
+      ],
+      "producers": [
+        "Jovan Markovski"
+      ],
+      "cinematography": "Goran Petrovski",
+      "editing": "Vladimir Jovanovski",
+      "comments": [
+        {
+          "id": "1",
+          "text": "Пробен коментар 1",
+          "time": 5,
+          "user": "Симе",
+          "image": "/watchPage/random-user-1.png"
+        },
+        {
+          "id": "2",
+          "text": "haha very funny",
+          "time": 40,
+          "user": "Peter",
+          "image": "/watchPage/random-user-2.png"
+        },
+        {
+          "id": "3",
+          "text": "haha very funny",
+          "time": 43,
+          "user": "Наташа",
+          "image": "/watchPage/random-user-2.png"
+        },
+        {
+          "id": "4",
+          "text": "Колку добра сцена...",
+          "time": 60,
+          "user": "Наташа",
+          "image": "/watchPage/random-user-1.png"
+        },
+        {
+          "id": "5",
+          "text": "This is second comment",
+          "time": 90,
+          "user": "Симе",
+          "image": "/watchPage/random-user-1.png"
+        }
+      ],
+      "costumeDesign": "Jasmina Petrovska"
+    },
+    {
+      "id": "22",
+      "title": "Megaffon",
+      "thumbnailImage": "/mediaThumbnails/megaffon.png",
+      "headerImage": "megaffon-header.png",
+      "description": "A dynamic and engaging documentary that amplifies the voices of everyday people and their unique stories.",
+      "rating": 7.6,
+      "genres": [
+        "Documentary",
+        "Social",
+        "Kids",
+        "Podcast"
+      ],
+      "contentRating": "PG",
+      "cast": [
+        "Igor Djambazov",
+        "Toni Mihajlovski"
+      ],
+      "director": "Ana Stojanovska",
+      "writers": [
+        "Jovan Kostić",
+        "Vladimir Petrovski"
+      ],
+      "producers": [
+        "Sanja Markovska"
+      ],
+      "cinematography": "Marko Petrovski",
+      "editing": "Jasmina Petrovska",
+      "comments": [
+        {
+          "id": "1",
+          "text": "Пробен коментар 1",
+          "time": 5,
+          "user": "Симе",
+          "image": "/watchPage/random-user-1.png"
+        },
+        {
+          "id": "2",
+          "text": "haha very funny",
+          "time": 40,
+          "user": "Peter",
+          "image": "/watchPage/random-user-2.png"
+        },
+        {
+          "id": "3",
+          "text": "haha very funny",
+          "time": 43,
+          "user": "Наташа",
+          "image": "/watchPage/random-user-2.png"
+        },
+        {
+          "id": "4",
+          "text": "Колку добра сцена...",
+          "time": 60,
+          "user": "Наташа",
+          "image": "/watchPage/random-user-1.png"
+        },
+        {
+          "id": "5",
+          "text": "This is second comment",
+          "time": 90,
+          "user": "Симе",
+          "image": "/watchPage/random-user-1.png"
+        }
+      ],
+      "costumeDesign": "Elena Kovačevska"
+    },
+    {
+      "id": "23",
+      "title": "Mirage",
+      "thumbnailImage": "/mediaThumbnails/mirage.png",
+      "headerImage": "mirage-header.png",
+      "description": "A psychological thriller that takes the audience on a journey through a labyrinth of mystery and deceit.",
+      "rating": 8,
+      "genres": [
+        "Thriller",
+        "Mystery",
+        "History",
+        "Action"
+      ],
+      "contentRating": "R",
+      "cast": [
+        "Igor Djambazov",
+        "Toni Mihajlovski"
+      ],
+      "director": "Luka Kovačevski",
+      "writers": [
+        "Nikola Stojanovski",
+        "Marija Ivanovska"
+      ],
+      "producers": [
+        "Vladimir Petrovski"
+      ],
+      "cinematography": "Stefan Stojanovski",
+      "editing": "Marko Kostić",
+      "comments": [
+        {
+          "id": "1",
+          "text": "Пробен коментар 1",
+          "time": 5,
+          "user": "Симе",
+          "image": "/watchPage/random-user-1.png"
+        },
+        {
+          "id": "2",
+          "text": "haha very funny",
+          "time": 40,
+          "user": "Peter",
+          "image": "/watchPage/random-user-2.png"
+        },
+        {
+          "id": "3",
+          "text": "haha very funny",
+          "time": 43,
+          "user": "Наташа",
+          "image": "/watchPage/random-user-2.png"
+        },
+        {
+          "id": "4",
+          "text": "Колку добра сцена...",
+          "time": 60,
+          "user": "Наташа",
+          "image": "/watchPage/random-user-1.png"
+        },
+        {
+          "id": "5",
+          "text": "This is second comment",
+          "time": 90,
+          "user": "Симе",
+          "image": "/watchPage/random-user-1.png"
+        }
+      ],
+      "costumeDesign": "Jasmina Petrovska"
+    },
+    {
+      "id": "24",
+      "title": "Nashe Malo",
+      "thumbnailImage": "/mediaThumbnails/nashe-malo.png",
+      "headerImage": "nashe-malo-header.png",
+      "description": "A heartwarming family comedy that highlights the joys and challenges of living in a close-knit community.",
+      "rating": 7.5,
+      "genres": [
+        "Comedy",
+        "Family",
+        "Kids"
+      ],
+      "contentRating": "PG",
+      "cast": [
+        "Rade Sherbedzija",
+        "Toni Mihajlovski"
+      ],
+      "director": "Stefan Petrovski",
+      "writers": [
+        "Jelena Kovačeva",
+        "Marko Stojanovski"
+      ],
+      "producers": [
+        "Jovan Markovski"
+      ],
+      "cinematography": "Nikola Kostić",
+      "editing": "Luka Petrovski",
+      "comments": [
+        {
+          "id": "1",
+          "text": "Пробен коментар 1",
+          "time": 5,
+          "user": "Симе",
+          "image": "/watchPage/random-user-1.png"
+        },
+        {
+          "id": "2",
+          "text": "haha very funny",
+          "time": 40,
+          "user": "Peter",
+          "image": "/watchPage/random-user-2.png"
+        },
+        {
+          "id": "3",
+          "text": "haha very funny",
+          "time": 43,
+          "user": "Наташа",
+          "image": "/watchPage/random-user-2.png"
+        },
+        {
+          "id": "4",
+          "text": "Колку добра сцена...",
+          "time": 60,
+          "user": "Наташа",
+          "image": "/watchPage/random-user-1.png"
+        },
+        {
+          "id": "5",
+          "text": "This is second comment",
+          "time": 90,
+          "user": "Симе",
+          "image": "/watchPage/random-user-1.png"
+        }
+      ],
+      "costumeDesign": "Ivana Petrovska"
+    },
+    {
+      "id": "25",
+      "title": "Objektivno",
+      "thumbnailImage": "/mediaThumbnails/objektivno.png",
+      "headerImage": "objektivno-header.png",
+      "description": "A suspenseful drama that keeps the audience guessing with twists and turns at every corner.",
+      "rating": 7.9,
+      "genres": [
+        "Drama",
+        "Suspense",
+        "History"
+      ],
+      "contentRating": "PG-13",
+      "cast": [
+        "Sashko Kocev",
+        "Igor Djambazov"
+      ],
+      "director": "Goran Nikoloski",
+      "writers": [
+        "Nikola Kovačev",
+        "Ana Jovanovska"
+      ],
+      "producers": [
+        "Stefan Petrovski"
+      ],
+      "cinematography": "Vladimir Jovanovski",
+      "editing": "Jelena Markovska",
+      "comments": [
+        {
+          "id": "1",
+          "text": "Пробен коментар 1",
+          "time": 5,
+          "user": "Симе",
+          "image": "/watchPage/random-user-1.png"
+        },
+        {
+          "id": "2",
+          "text": "haha very funny",
+          "time": 40,
+          "user": "Peter",
+          "image": "/watchPage/random-user-2.png"
+        },
+        {
+          "id": "3",
+          "text": "haha very funny",
+          "time": 43,
+          "user": "Наташа",
+          "image": "/watchPage/random-user-2.png"
+        },
+        {
+          "id": "4",
+          "text": "Колку добра сцена...",
+          "time": 60,
+          "user": "Наташа",
+          "image": "/watchPage/random-user-1.png"
+        },
+        {
+          "id": "5",
+          "text": "This is second comment",
+          "time": 90,
+          "user": "Симе",
+          "image": "/watchPage/random-user-1.png"
+        }
+      ],
+      "costumeDesign": "Jasmina Petrovska"
+    },
+    {
+      "id": "26",
+      "title": "Samogla",
+      "thumbnailImage": "/mediaThumbnails/samogla.png",
+      "headerImage": "samogla-header.png",
+      "description": "A captivating journey that explores the boundaries of science and art through an innovative lens.",
+      "rating": 8,
+      "genres": [
+        "Documentary",
+        "Art",
+        "Podcast"
+      ],
+      "contentRating": "PG-13",
+      "cast": [
+        "Sashko Kocev",
+        "Toni Mihajlovski"
+      ],
+      "director": "Vladimir Jovanovski",
+      "writers": [
+        "Ana Markovska",
+        "Luka Stojanovski"
+      ],
+      "producers": [
+        "Jelena Petrovska"
+      ],
+      "cinematography": "Goran Markovski",
+      "editing": "Jasmina Petrovska",
+      "comments": [
+        {
+          "id": "1",
+          "text": "Пробен коментар 1",
+          "time": 5,
+          "user": "Симе",
+          "image": "/watchPage/random-user-1.png"
+        },
+        {
+          "id": "2",
+          "text": "haha very funny",
+          "time": 40,
+          "user": "Peter",
+          "image": "/watchPage/random-user-2.png"
+        },
+        {
+          "id": "3",
+          "text": "haha very funny",
+          "time": 43,
+          "user": "Наташа",
+          "image": "/watchPage/random-user-2.png"
+        },
+        {
+          "id": "4",
+          "text": "Колку добра сцена...",
+          "time": 60,
+          "user": "Наташа",
+          "image": "/watchPage/random-user-1.png"
+        },
+        {
+          "id": "5",
+          "text": "This is second comment",
+          "time": 90,
+          "user": "Симе",
+          "image": "/watchPage/random-user-1.png"
+        }
+      ],
+      "costumeDesign": "Sanja Petrovska"
+    },
+    {
+      "id": "27",
+      "title": "Sara Podcast",
+      "thumbnailImage": "/mediaThumbnails/sara-podcast.png",
+      "headerImage": "sara-podcast-header.png",
+      "description": "An engaging and informative podcast series that covers a wide range of topics with expert guests.",
+      "rating": 7.3,
+      "genres": [
+        "Podcast",
+        "Talk Show"
+      ],
+      "contentRating": "PG",
+      "cast": [
+        "Sashko Kocev",
+        "Toni Mihajlovski"
+      ],
+      "director": "Nikola Kovačevski",
+      "writers": [
+        "Jovana Markovska",
+        "Vladimir Stojanovski"
+      ],
+      "producers": [
+        "Jelena Petrovska"
+      ],
+      "cinematography": "Ana Kovačevska",
+      "editing": "Marko Petrovski",
+      "comments": [
+        {
+          "id": "1",
+          "text": "Пробен коментар 1",
+          "time": 5,
+          "user": "Симе",
+          "image": "/watchPage/random-user-1.png"
+        },
+        {
+          "id": "2",
+          "text": "haha very funny",
+          "time": 40,
+          "user": "Peter",
+          "image": "/watchPage/random-user-2.png"
+        },
+        {
+          "id": "3",
+          "text": "haha very funny",
+          "time": 43,
+          "user": "Наташа",
+          "image": "/watchPage/random-user-2.png"
+        },
+        {
+          "id": "4",
+          "text": "Колку добра сцена...",
+          "time": 60,
+          "user": "Наташа",
+          "image": "/watchPage/random-user-1.png"
+        },
+        {
+          "id": "5",
+          "text": "This is second comment",
+          "time": 90,
+          "user": "Симе",
+          "image": "/watchPage/random-user-1.png"
+        }
+      ],
+      "costumeDesign": "Ivana Stojanova"
+    },
+    {
+      "id": "28",
+      "title": "Senki",
+      "thumbnailImage": "/mediaThumbnails/Senki-2007.png",
+      "headerImage": "senki-header.png",
+      "description": "A dark and atmospheric film that takes the viewer on a journey through a world of shadows and secrets.",
+      "rating": 8.2,
+      "genres": [
+        "Horror",
+        "Thriller",
+        "Action"
+      ],
+      "contentRating": "R",
+      "cast": [
+        "Igor Djambazov",
+        "Rade Sherbedzija"
+      ],
+      "director": "Luka Stojanovski",
+      "writers": [
+        "Nikola Kovačev",
+        "Jelena Kovačevska"
+      ],
+      "producers": [
+        "Marko Petrovski"
+      ],
+      "cinematography": "Goran Petrovski",
+      "editing": "Stefan Kostić",
+      "comments": [
+        {
+          "id": "1",
+          "text": "Пробен коментар 1",
+          "time": 5,
+          "user": "Симе",
+          "image": "/watchPage/random-user-1.png"
+        },
+        {
+          "id": "2",
+          "text": "haha very funny",
+          "time": 40,
+          "user": "Peter",
+          "image": "/watchPage/random-user-2.png"
+        },
+        {
+          "id": "3",
+          "text": "haha very funny",
+          "time": 43,
+          "user": "Наташа",
+          "image": "/watchPage/random-user-2.png"
+        },
+        {
+          "id": "4",
+          "text": "Колку добра сцена...",
+          "time": 60,
+          "user": "Наташа",
+          "image": "/watchPage/random-user-1.png"
+        },
+        {
+          "id": "5",
+          "text": "This is second comment",
+          "time": 90,
+          "user": "Симе",
+          "image": "/watchPage/random-user-1.png"
+        }
+      ],
+      "costumeDesign": "Jasmina Markovska"
+    },
+    {
+      "id": "29",
+      "title": "Sisters",
+      "thumbnailImage": "/mediaThumbnails/sisters.png",
+      "headerImage": "sisters-header.png",
+      "description": "A touching drama that explores the complex relationship between two sisters as they navigate life's challenges.",
+      "rating": 7.8,
+      "genres": [
+        "Drama",
+        "Family",
+        "Kids",
+        "Comedy"
+      ],
+      "contentRating": "PG-13",
+      "cast": [
+        "Igor Djambazov",
+        "Rade Sherbedzija",
+        "Sashko Kocev"
+      ],
+      "director": "Marko Jovanovski",
+      "writers": [
+        "Marija Ivanovska",
+        "Luka Kostić"
+      ],
+      "producers": [
+        "Jovan Petrovski"
+      ],
+      "cinematography": "Vladimir Jovanovski",
+      "editing": "Elena Kovačevska",
+      "comments": [
+        {
+          "id": "1",
+          "text": "Пробен коментар 1",
+          "time": 5,
+          "user": "Симе",
+          "image": "/watchPage/random-user-1.png"
+        },
+        {
+          "id": "2",
+          "text": "haha very funny",
+          "time": 40,
+          "user": "Peter",
+          "image": "/watchPage/random-user-2.png"
+        },
+        {
+          "id": "3",
+          "text": "haha very funny",
+          "time": 43,
+          "user": "Наташа",
+          "image": "/watchPage/random-user-2.png"
+        },
+        {
+          "id": "4",
+          "text": "Колку добра сцена...",
+          "time": 60,
+          "user": "Наташа",
+          "image": "/watchPage/random-user-1.png"
+        },
+        {
+          "id": "5",
+          "text": "This is second comment",
+          "time": 90,
+          "user": "Симе",
+          "image": "/watchPage/random-user-1.png"
+        }
+      ],
+      "costumeDesign": "Jasmina Petrovska"
+    },
+    {
+      "id": "30",
+      "title": "Slagalica",
+      "thumbnailImage": "/mediaThumbnails/slagalica.png",
+      "headerImage": "slagalica-header.png",
+      "description": "A thought-provoking thriller that keeps the audience guessing as it unravels a complex puzzle of events.",
+      "rating": 8.1,
+      "genres": [
+        "Thriller",
+        "Mystery",
+        "History",
+        "Action"
+      ],
+      "contentRating": "R",
+      "cast": [
+        "Rade Sherbedzija",
+        "Sashko Kocev"
+      ],
+      "director": "Goran Nikoloski",
+      "writers": [
+        "Vladimir Petrovski",
+        "Marija Stojanova"
+      ],
+      "producers": [
+        "Nikola Petrovski"
+      ],
+      "cinematography": "Marko Kovačevski",
+      "editing": "Jasmina Petrovska",
+      "comments": [
+        {
+          "id": "1",
+          "text": "Пробен коментар 1",
+          "time": 5,
+          "user": "Симе",
+          "image": "/watchPage/random-user-1.png"
+        },
+        {
+          "id": "2",
+          "text": "haha very funny",
+          "time": 40,
+          "user": "Peter",
+          "image": "/watchPage/random-user-2.png"
+        },
+        {
+          "id": "3",
+          "text": "haha very funny",
+          "time": 43,
+          "user": "Наташа",
+          "image": "/watchPage/random-user-2.png"
+        },
+        {
+          "id": "4",
+          "text": "Колку добра сцена...",
+          "time": 60,
+          "user": "Наташа",
+          "image": "/watchPage/random-user-1.png"
+        },
+        {
+          "id": "5",
+          "text": "This is second comment",
+          "time": 90,
+          "user": "Симе",
+          "image": "/watchPage/random-user-1.png"
+        }
+      ],
+      "costumeDesign": "Ivana Petrovska"
+    },
+    {
+      "id": "31",
+      "title": "Tetoviranje",
+      "thumbnailImage": "/mediaThumbnails/tetoviranje.png",
+      "headerImage": "tetoviranje-header.png",
+      "description": "An artistic exploration of the world of tattoos, delving into the lives and stories of tattoo artists and their clients.",
+      "rating": 7.6,
+      "genres": [
+        "Documentary",
+        "Art",
+        "Podcast"
+      ],
+      "contentRating": "PG-13",
+      "cast": [
+        "Igor Djambazov",
+        "Rade Sherbedzija"
+      ],
+      "director": "Goran Markovski",
+      "writers": [
+        "Ana Petrovska",
+        "Jelena Markovska"
+      ],
+      "producers": [
+        "Vladimir Jovanovski"
+      ],
+      "cinematography": "Stefan Kovačev",
+      "editing": "Luka Petrovski",
+      "comments": [
+        {
+          "id": "1",
+          "text": "Пробен коментар 1",
+          "time": 5,
+          "user": "Симе",
+          "image": "/watchPage/random-user-1.png"
+        },
+        {
+          "id": "2",
+          "text": "haha very funny",
+          "time": 40,
+          "user": "Peter",
+          "image": "/watchPage/random-user-2.png"
+        },
+        {
+          "id": "3",
+          "text": "haha very funny",
+          "time": 43,
+          "user": "Наташа",
+          "image": "/watchPage/random-user-2.png"
+        },
+        {
+          "id": "4",
+          "text": "Колку добра сцена...",
+          "time": 60,
+          "user": "Наташа",
+          "image": "/watchPage/random-user-1.png"
+        },
+        {
+          "id": "5",
+          "text": "This is second comment",
+          "time": 90,
+          "user": "Симе",
+          "image": "/watchPage/random-user-1.png"
+        }
+      ],
+      "costumeDesign": "Jasmina Petrovska"
+    },
+    {
+      "id": "32",
+      "title": "The Man In The Movie Camera",
+      "thumbnailImage": "/mediaThumbnails/the-man-in-the-movie-camera.png",
+      "headerImage": "the-man-in-the-movie-camera-header.png",
+      "description": "A unique cinematic experience that combines innovative camera techniques with a captivating story.",
+      "rating": 8.2,
+      "genres": [
+        "Experimental",
+        "Documentary",
+        "Podcast"
+      ],
+      "contentRating": "PG",
+      "cast": [
+        "Sashko Kocev",
+        "Toni Mihajlovski"
+      ],
+      "director": "Luka Kovačevski",
+      "writers": [
+        "Vladimir Petrovski",
+        "Marija Ivanovska"
+      ],
+      "producers": [
+        "Jovan Markovski"
+      ],
+      "cinematography": "Marko Petrovski",
+      "editing": "Ana Kovačevska",
+      "comments": [
+        {
+          "id": "1",
+          "text": "Пробен коментар 1",
+          "time": 5,
+          "user": "Симе",
+          "image": "/watchPage/random-user-1.png"
+        },
+        {
+          "id": "2",
+          "text": "haha very funny",
+          "time": 40,
+          "user": "Peter",
+          "image": "/watchPage/random-user-2.png"
+        },
+        {
+          "id": "3",
+          "text": "haha very funny",
+          "time": 43,
+          "user": "Наташа",
+          "image": "/watchPage/random-user-2.png"
+        },
+        {
+          "id": "4",
+          "text": "Колку добра сцена...",
+          "time": 60,
+          "user": "Наташа",
+          "image": "/watchPage/random-user-1.png"
+        },
+        {
+          "id": "5",
+          "text": "This is second comment",
+          "time": 90,
+          "user": "Симе",
+          "image": "/watchPage/random-user-1.png"
+        }
+      ],
+      "costumeDesign": "Sanja Markovska"
+    },
+    {
+      "id": "33",
+      "title": "Third Half",
+      "thumbnailImage": "/mediaThumbnails/third-half.png",
+      "headerImage": "third-half-header.png",
+      "description": "A thrilling sports drama that follows the journey of a young athlete as he overcomes obstacles on and off the field.",
+      "rating": 7.8,
+      "genres": [
+        "Sports",
+        "Drama",
+        "History",
+        "Horror"
+      ],
+      "contentRating": "PG-13",
+      "cast": [
+        "Rade Sherbedzija",
+        "Toni Mihajlovski"
+      ],
+      "director": "Goran Kovačevski",
+      "writers": [
+        "Nikola Petrovski",
+        "Marija Stojanova"
+      ],
+      "producers": [
+        "Marko Jovanovski"
+      ],
+      "cinematography": "Vladimir Petrovski",
+      "editing": "Jelena Kovačevska",
+      "comments": [
+        {
+          "id": "1",
+          "text": "Пробен коментар 1",
+          "time": 5,
+          "user": "Симе",
+          "image": "/watchPage/random-user-1.png"
+        },
+        {
+          "id": "2",
+          "text": "haha very funny",
+          "time": 40,
+          "user": "Peter",
+          "image": "/watchPage/random-user-2.png"
+        },
+        {
+          "id": "3",
+          "text": "haha very funny",
+          "time": 43,
+          "user": "Наташа",
+          "image": "/watchPage/random-user-2.png"
+        },
+        {
+          "id": "4",
+          "text": "Колку добра сцена...",
+          "time": 60,
+          "user": "Наташа",
+          "image": "/watchPage/random-user-1.png"
+        },
+        {
+          "id": "5",
+          "text": "This is second comment",
+          "time": 90,
+          "user": "Симе",
+          "image": "/watchPage/random-user-1.png"
+        }
+      ],
+      "costumeDesign": "Jasmina Petrovska"
+    },
+    {
+      "id": "34",
+      "title": "Treto Poluvreme",
+      "thumbnailImage": "/mediaThumbnails/treto-poluvreme.png",
+      "headerImage": "treto-poluvreme-header.png",
+      "description": "A moving drama that tells the story of a team battling against all odds during a crucial soccer match.",
+      "rating": 8.1,
+      "genres": [
+        "Drama",
+        "Sports"
+      ],
+      "contentRating": "PG-13",
+      "cast": [
+        "Igor Djambazov",
+        "Toni Mihajlovski"
+      ],
+      "director": "Nikola Stojanovski",
+      "writers": [
+        "Jovan Markovski",
+        "Jelena Kovačevska"
+      ],
+      "producers": [
+        "Goran Jovanovski"
+      ],
+      "cinematography": "Marko Petrovski",
+      "editing": "Jasmina Petrovska",
+      "comments": [
+        {
+          "id": "1",
+          "text": "Пробен коментар 1",
+          "time": 5,
+          "user": "Симе",
+          "image": "/watchPage/random-user-1.png"
+        },
+        {
+          "id": "2",
+          "text": "haha very funny",
+          "time": 40,
+          "user": "Peter",
+          "image": "/watchPage/random-user-2.png"
+        },
+        {
+          "id": "3",
+          "text": "haha very funny",
+          "time": 43,
+          "user": "Наташа",
+          "image": "/watchPage/random-user-2.png"
+        },
+        {
+          "id": "4",
+          "text": "Колку добра сцена...",
+          "time": 60,
+          "user": "Наташа",
+          "image": "/watchPage/random-user-1.png"
+        },
+        {
+          "id": "5",
+          "text": "This is second comment",
+          "time": 90,
+          "user": "Симе",
+          "image": "/watchPage/random-user-1.png"
+        }
+      ],
+      "costumeDesign": "Ivana Petrovska"
+    },
+    {
+      "id": "35",
+      "title": "Untitleddas",
+      "thumbnailImage": "/mediaThumbnails/Untitleddas.png",
+      "headerImage": "Untitleddas-header.png",
+      "description": "A mysterious and enigmatic film that leaves the audience questioning reality and perception.",
+      "rating": 7.9,
+      "genres": [
+        "Mystery",
+        "Drama",
+        "Horror"
+      ],
+      "contentRating": "PG-13",
+      "cast": [
+        "Igor Djambazov",
+        "Toni Mihajlovski",
+        "Sashko Kocev"
+      ],
+      "director": "Goran Nikoloski",
+      "writers": [
+        "Vladimir Kovačev",
+        "Ana Jovanovska"
+      ],
+      "producers": [
+        "Jelena Markovska"
+      ],
+      "cinematography": "Vladimir Petrovski",
+      "editing": "Marko Kovačevski",
+      "comments": [
+        {
+          "id": "1",
+          "text": "Пробен коментар 1",
+          "time": 5,
+          "user": "Симе",
+          "image": "/watchPage/random-user-1.png"
+        },
+        {
+          "id": "2",
+          "text": "haha very funny",
+          "time": 40,
+          "user": "Peter",
+          "image": "/watchPage/random-user-2.png"
+        },
+        {
+          "id": "3",
+          "text": "haha very funny",
+          "time": 43,
+          "user": "Наташа",
+          "image": "/watchPage/random-user-2.png"
+        },
+        {
+          "id": "4",
+          "text": "Колку добра сцена...",
+          "time": 60,
+          "user": "Наташа",
+          "image": "/watchPage/random-user-1.png"
+        },
+        {
+          "id": "5",
+          "text": "This is second comment",
+          "time": 90,
+          "user": "Симе",
+          "image": "/watchPage/random-user-1.png"
+        }
+      ],
+      "costumeDesign": "Jasmina Petrovska"
+    }
+  ],
+  "artistData": [
+    {
+      "id": "1",
+      "image": "/artistOverview/igor-djambazov-overview.png",
+      "imageMain": "/artistsThumbnails/Igor-djambazov.png",
+      "nameAndSurname": "Igor Djambazov",
+      "description": "A talented actor and musician known for his versatility and charisma in a wide range of roles and performances. His dynamic presence and captivating talent have earned him widespread acclaim both on stage and screen.",
+      "movies": [
+        "Bistra Voda",
+        "Zona Zamfirova",
+        "Mirage"
+      ],
+      "awards": [
+        "Best Actor - Balkan Film Festival (2018)",
+        "Lifetime Achievement Award - Skopje International Film Festival (2020)",
+        "Best Male Performance - European Film Awards (2019)"
+      ]
+    },
+    {
+      "id": "2",
+      "image": "/artistOverview/rade-sherbedjija-overview.png",
+      "imageMain": "/artistsThumbnails/Rade-sherbedjija.png",
+      "nameAndSurname": "Rade Sherbedzija",
+      "description": "A renowned actor with a distinguished career spanning international cinema and theater, known for his deep, powerful performances. His remarkable ability to embody diverse characters has made him a respected figure in the acting community.",
+      "movies": [
+        "Before the Rain",
+        "Snatch",
+        "Taken 2"
+      ],
+      "awards": [
+        "Golden Arena for Best Actor (1994)",
+        "Lifetime Achievement Award - Belgrade International Film Festival (2015)",
+        "Outstanding Contribution to Cinema - European Film Awards (2017)"
+      ]
+    },
+    {
+      "id": "3",
+      "image": "/artistOverview/sasko-kocev-overview.png",
+      "imageMain": "/artistsThumbnails/Sashko-kocev.png",
+      "nameAndSurname": "Sashko Kocev",
+      "description": "A popular actor and comedian known for his distinctive humor and memorable performances on screen and stage. His unique comedic style and heartfelt portrayals have garnered him a dedicated fan base and critical recognition.",
+      "movies": [
+        "Punk's Not Dead",
+        "The Secret Ingredient",
+        "The Liberation of Skopje"
+      ],
+      "awards": [
+        "Best Actor - Macedonian Film Festival (2016)",
+        "Audience Choice Award - Sarajevo Film Festival (2018)",
+        "Best Comedic Performance - Balkan Comedy Awards (2019)"
+      ]
+    },
+    {
+      "id": "4",
+      "image": "/artistOverview/toni-mihajlovski-overview.png",
+      "imageMain": "/artistsThumbnails/Toni-mihajlovski.png",
+      "nameAndSurname": "Toni Mihajlovski",
+      "description": "A well-respected actor with a strong presence in the world of film and theater, known for his expressive performances. His commitment to his craft and ability to convey profound emotion have made him a beloved and influential figure in the performing arts.",
+      "movies": [
+        "The Seed of Evil",
+        "The Great Water",
+        "Bal-Can-Can"
+      ],
+      "awards": [
+        "Best Supporting Actor - Macedonian Film Festival (2014)",
+        "Lifetime Achievement Award - Ohrid Film Festival (2019)",
+        "Best Actor in a Leading Role - Balkan Film Awards (2017)"
+      ]
+    }
+  ],
+  "posts": [
+    {
+      "id": "232",
+      "authorImg": "/communityPage/user-1.png",
+      "postTitle": "Која е вистинската приказна за Балканкан...",
+      "postText": "Lorem ipsum dolor sit amet consectetur...",
+      "postLike": 600,
+      "postDislikes": 5,
+      "postComments": [
+        {
+          "postCommentId": 323,
+          "commentAuthorName": "Sime123",
+          "commentAuthorImg": "/communityPage/user-1.png",
+          "commentText": "I heard he inherited a fortune from a distant relative",
+          "commentLikes": 2,
+          "commentReplies": [
+            {
+              "commentReplyId": 523,
+              "replyAuthorName": "Sime123",
+              "replyAuthorImg": "/communityPage/user-1.png",
+              "replyText": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaYeah, I heard the same thing. Quite a stroke of luck, I suppose.",
+              "replyLikes": 15
+            },
+            {
+              "commentReplyId": 624,
+              "replyAuthorName": "JaneDoe99",
+              "replyAuthorImg": "/communityPage/user-2.png",
+              "replyText": "Actually, I read somewhere that he built his wealth from scratch through hard work and dedication.",
+              "replyLikes": 8
+            },
+            {
+              "commentReplyId": 624,
+              "replyAuthorName": "JaneDoe99",
+              "replyAuthorImg": "/communityPage/user-2.png",
+              "replyText": "Actually,",
+              "replyLikes": 8
+            }
+          ]
+        },
+        {
+          "postCommentId": 5105906052220901,
+          "commentText": "Watching movies is a delightful escape, transporting viewers into different worlds and stories. It offers a blend of entertainment and emotion, perfect for relaxing alone or enjoying with friends.",
+          "commentAuthorImg": "/userProfile/profile-picure.png",
+          "commentAuthorName": "johnD",
+          "commentLikes": 0,
+          "commentReplies": []
+        }
+      ]
+    },
+    {
+      "id": "233",
+      "authorImg": "/communityPage/user-2.png",
+      "postTitle": "The Impact of Technology on Society",
+      "postText": "Technology has significantly impacted society in various ways...",
+      "postLike": 800,
+      "postDislikes": 10,
+      "postComments": [
+        {
+          "postCommentId": 324,
+          "commentAuthorName": "TechEnthusiast",
+          "commentAuthorImg": "/communityPage/user-2.png",
+          "commentText": "Technology has indeed changed our lives drastically...",
+          "commentLikes": 5,
+          "commentReplies": [
+            {
+              "commentReplyId": 524,
+              "replyAuthorName": "TechDebate",
+              "replyAuthorImg": "/communityPage/user-2.png",
+              "replyText": "I completely agree. We must strike a balance between technological advancement and ethical considerations.",
+              "replyLikes": 20
+            }
+          ]
+        },
+        {
+          "postCommentId": 7358877380736855,
+          "commentText": "Tryout",
+          "commentAuthorImg": "/userProfile/profile-picure.png",
+          "commentAuthorName": "johnD",
+          "commentLikes": 0,
+          "commentReplies": []
+        }
+      ]
+    },
+    {
+      "id": "234",
+      "authorImg": "/communityPage/user-3.png",
+      "postTitle": "Exploring the Future of Artificial Intelligence",
+      "postText": "Artificial Intelligence (AI) has emerged as one of the most transformative technologies...",
+      "postLike": 1200,
+      "postDislikes": 15,
+      "postComments": [
+        {
+          "postCommentId": 325,
+          "commentAuthorName": "AIEnthusiast",
+          "commentAuthorImg": "/communityPage/user-3.png",
+          "commentText": "The possibilities with AI are endless. I believe it will lead to significant advancements in various fields.",
+          "commentLikes": 8,
+          "commentReplies": [
+            {
+              "commentReplyId": 525,
+              "replyAuthorName": "TechVisionary",
+              "replyAuthorImg": "/communityPage/user-3.png",
+              "replyText": "Absolutely However, we must also address concerns about AI ethics and ensure that it is developed responsibly.",
+              "replyLikes": 25
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "235",
+      "authorImg": "/communityPage/user-4.png",
+      "postTitle": "The Future of Renewable Energy",
+      "postText": "Renewable energy sources, such as solar, wind, and hydroelectric power, have gained significant traction...",
+      "postLike": 900,
+      "postDislikes": 8,
+      "postComments": [
+        {
+          "postCommentId": 326,
+          "commentAuthorName": "GreenTechAdvocate",
+          "commentAuthorImg": "/communityPage/user-4.png",
+          "commentText": "Renewable energy is the future We must invest more in research and development to accelerate its adoption.",
+          "commentLikes": 12,
+          "commentReplies": [
+            {
+              "commentReplyId": 526,
+              "replyAuthorName": "ClimateActivist",
+              "replyAuthorImg": "/communityPage/user-4.png",
+              "replyText": "Absolutely We need to prioritize sustainability and reduce our reliance on fossil fuels for a greener future.",
+              "replyLikes": 30
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "236",
+      "authorImg": "/communityPage/user-5.png",
+      "postTitle": "The Impact of Social Media on Society",
+      "postText": "Social media platforms have become integral parts of our daily lives, reshaping the way we communicate...",
+      "postLike": 1100,
+      "postDislikes": 20,
+      "postComments": [
+        {
+          "id": 327,
+          "commentAuthorName": "SocialMediaObserver",
+          "commentAuthorImg": "/communityPage/user-5.png",
+          "commentText": "Social media has undoubtedly transformed the way we communicate and consume information...",
+          "commentLikes": 10,
+          "commentReplies": [
+            {
+              "id": 527,
+              "replyAuthorName": "DigitalEthicist",
+              "replyAuthorImg": "/communityPage/user-5.png",
+              "replyText": "Absolutely We need to promote digital literacy and critical thinking skills to mitigate the spread of misinformation and promote online safety.",
+              "replyLikes": 35
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "users": [
+    {
+      "id": "7569",
+      "userType": "artist",
+      "interests": [
+        "More Options",
+        "Teatre",
+        "Dance"
+      ],
+      "experiencePreferenceTutorial": "dive-in",
+      "paymentType": "Pay to watch",
+      "username": "johnD",
+      "password": "1234567",
+      "confirmPassword": "1234567",
+      "description": "Watching movies is a delightful escape, transporting viewers into different worlds and stories. It offers a blend of entertainment and emotion, perfect for relaxing alone or enjoying with friends. It's a timeless way to experience diverse cultures and perspectives.",
+      "image": "/userProfile/profile-picure.png",
+      "cultureInterests": [
+        "European"
+      ],
+      "contentRecommendations": [
+        "Drama"
+      ],
+      "emailNotification": false,
+      "pushNotification": false,
+      "noNotification": true,
+      "privacySettings": "Public",
+      "watchedMovies": [
+        1,
+        3,
+        14,
+        4,
+        5,
+        7,
+        8,
+        9,
+        12
+      ],
+      "likedMovies": [
+        1,
+        3,
+        14,
+        4,
+        5,
+        7,
+        8,
+        9,
+        12
+      ],
+      "userComments": [
+        {
+          "commentText": "Tryout",
+          "postId": "233"
+        },
+        {
+          "commentText": "Watching movies is a delightful escape, transporting viewers into different worlds and stories. It offers a blend of entertainment and emotion, perfect for relaxing alone or enjoying with friends.",
+          "postId": "232"
+        }
+      ],
+      "userPosts": [],
+      "email": "john@doe"
+    },
+    {
+      "id": "9493523898874661",
+      "userType": "viewer",
+      "interests": [
+        "Teatre"
+      ],
+      "experiencePreferenceTutorial": "dive-in",
+      "paymentType": "Engage and receive points",
+      "username": "Mario",
+      "password": "1234567",
+      "confirmPassword": "1234567",
+      "description": "",
+      "image": "/userProfile/profile-picure.png",
+      "cultureInterests": [
+        "Global"
+      ],
+      "contentRecommendations": [
+        "Documentary"
+      ],
+      "emailNotification": false,
+      "pushNotification": false,
+      "noNotification": true,
+      "privacySettings": "Only me",
+      "watchedMovies": [
+        1,
+        3,
+        14,
+        4,
+        5,
+        7,
+        8,
+        9,
+        12
+      ],
+      "likedMovies": [
+        1,
+        3,
+        14,
+        4,
+        5,
+        7,
+        8,
+        9,
+        12
+      ],
+      "userComments": [],
+      "userPosts": [],
+      "email": "minchevskim@gmail.com"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+@use '../../css/abstracts/mixins.scss' as *;
+@use '../../css/abstracts/variables.scss' as *;
+
+.homepage-footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    padding-right: 4.625rem;
+    padding-left: 9.375rem;
+
+    padding-bottom: 1.875rem;
+    padding-top: 11rem;
+
+    background: linear-gradient(180deg, #0B151B 11.59%, #000000 100%);
+
+    .homepage-footer__logo {
+        width: 320px;
+    }
+
+    .copyright-text {
+        p {
+            font-size: $font-size-headidng-smaller;
+        }
+
+        span {
+            font-size: $font-size-headidng-extra-small;
+        }
+    }
+}

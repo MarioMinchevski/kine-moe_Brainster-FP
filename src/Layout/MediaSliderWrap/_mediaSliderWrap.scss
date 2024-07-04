@@ -1,0 +1,95 @@
+@use '../../css/abstracts/mixins.scss' as *;
+@use '../../css/abstracts/variables.scss' as *;
+
+
+
+.media-slider-wrap {
+    // &:first-of-type {
+    //     padding-top: calc(100vh + 1.25rem);
+    // }
+
+    // padding-left: 12.75rem;
+    margin-bottom: 5.25rem;
+
+    .media-slider__title {
+        font-size: $font-size-headidng-smaller;
+        font-weight: $font-weight-bold;
+        line-height: 32px;
+        margin-bottom: 1.5rem;
+    }
+
+    .carousel-media-wrap {
+        cursor: grab;
+        overflow: visible;
+        background-color: $bg-color-primary;
+
+        .media-wrap-inner-carousel {
+            display: flex;
+            align-items: center;
+            // justify-content: space-between;
+            gap: 2rem;
+            min-width: 100%;
+            background-color: $bg-color-primary;
+        }
+    }
+
+    &.artist {
+        margin-right: -3rem;
+        margin-bottom: 3.25rem;
+
+        &:first-of-type {
+            padding-top: 0
+        }
+
+        .media-slider__title {
+            font-size: $font-size-medium;
+        }
+
+        .carousel-media-wrap,
+        .media-wrap-inner-carousel {
+            background-color: $bg-color-quaternary;
+        }
+
+        .media-wrap-inner-carousel {
+            gap: 2.875rem;
+        }
+    }
+
+    &.user {
+        margin-bottom: 1.75rem;
+
+        &:first-of-type {
+            padding-top: 0
+        }
+
+        .media-slider__title {
+            font-size: $font-size-headidng-extra-small;
+        }
+    }
+
+    &.search {
+        &:first-of-type {
+            padding-top: 0
+        }
+
+        .media-slider__title {
+            font-size: $font-size-headidng-smaller;
+            font-style: italic;
+        }
+
+
+    }
+
+    &.popular-movies-home {
+        .carousel-media-wrap {
+
+            background-color: transparent;
+
+            .media-wrap-inner-carousel {
+
+                background-color: transparent;
+            }
+        }
+    }
+
+}

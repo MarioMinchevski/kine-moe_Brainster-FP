@@ -1,0 +1,241 @@
+@use '../../css/abstracts/mixins.scss' as *;
+@use '../../css/abstracts/variables.scss' as *;
+
+.header {
+    position: relative;
+
+    .main-title {
+        position: absolute;
+        left: calc(130px + 75px);
+        top: 3.125rem;
+        z-index: 9;
+
+        font-size: $font-size-headidng-larger;
+        font-weight: $font-weight-bold;
+        color: $color-base-secondary;
+        font-family: $font-family-secondary;
+    }
+
+    .header-banner-slideshow {
+        position: relative;
+        display: flex;
+    }
+
+    .movie-banner__cta-button-container {
+        position: absolute;
+        left: 12.75rem;
+        top: 55.05rem;
+        z-index: 20;
+
+        display: flex;
+        align-items: center;
+        gap: 2rem;
+
+        .banner-play-button {
+            display: flex;
+            align-items: center;
+            font-size: $font-size-larger;
+            color: $color-base;
+
+            border: none;
+            background-color: $color-primary;
+
+            padding-inline: 1.5rem;
+            padding-block: 0.875rem;
+            border-radius: $border-radius-primary;
+
+            cursor: pointer;
+            transition: all 200ms ease-in-out;
+
+            img {
+                margin-right: 1.5rem;
+            }
+
+            span {
+                padding-bottom: 0.2rem;
+            }
+
+            &:hover {
+                background-color: darken($color-primary, 7%);
+                transform: scale(1.05);
+            }
+        }
+
+        .banner-icon-button {
+            background-color: transparent;
+            border: none;
+            cursor: pointer;
+
+            img {
+                transition: all 200ms ease-in-out;
+            }
+
+            svg {
+                font-size: 2rem;
+                color: $color-base;
+                transition: all 200ms ease-in-out;
+            }
+
+            &:hover {
+                img {
+                    filter: invert(53%) sepia(80%) saturate(3003%) hue-rotate(65deg) brightness(94%) contrast(98%);
+                }
+
+                svg {
+                    color: $color-primary;
+                }
+            }
+
+            &.filled {
+                svg {
+                    color: $color-primary;
+                }
+
+            }
+        }
+    }
+
+    .to-search {
+        position: absolute;
+        z-index: 20;
+        top: 4rem;
+        right: 5.5rem;
+        font-size: 2rem;
+        color: $color-base;
+        transition: all 200ms ease-in-out;
+
+        &:hover {
+            color: $color-primary;
+        }
+    }
+
+    .category-select-input__wrap {
+        position: absolute;
+        z-index: 20;
+        top: 4rem;
+        right: 10.65rem;
+
+        .category-select-input {
+            position: relative;
+
+            background-color: transparent;
+            border: 2px solid $color-base-secondary;
+            border-radius: $border-radius-primary;
+            padding-block: 0.5rem;
+            padding-left: 1.25rem;
+            padding-right: 3.75rem;
+
+            color: $color-base-secondary;
+            font-size: $font-size-medium ;
+            transition: all 200ms ease-in-out;
+            cursor: pointer;
+
+            -webkit-appearance: none;
+            -moz-appearance: none;
+            appearance: none;
+
+            &:focus,
+            &:hover {
+                border: 2px solid $color-primary;
+            }
+
+            &.input-option {
+                cursor: pointer;
+                color: $color-base-secondary;
+                background-color: transparent;
+            }
+        }
+
+        .dropdown-arrow {
+            pointer-events: none;
+            position: absolute;
+            top: 48%;
+            right: 12%;
+            transform: rotate(-90deg);
+            transition: all 300ms ease;
+
+            .d-line {
+                height: 3px;
+                background-color: $color-base;
+                border-radius: 10px;
+                transition: 550ms;
+                width: 12px;
+
+                &:not(:last-child) {
+                    margin-bottom: 2px;
+                }
+
+                &:nth-of-type(1) {
+                    transform: translateY(6px) rotate(45deg);
+                }
+
+                &:nth-of-type(2) {
+                    transform: translateY(-6px) rotate(-45deg);
+                }
+            }
+        }
+    }
+
+    .movie-banner-info {
+        position: absolute;
+        // left: 12.75rem;
+        // bottom: 12.5rem;
+        // z-index: 22;
+
+        left: 12.75rem;
+        top: 31.5rem;
+
+        max-width: 715px;
+
+        display: flex;
+        flex-direction: column;
+
+        z-index: 3;
+
+        .movie-banner__logo-box {
+            width: 715px;
+            margin-bottom: 1.45rem;
+        }
+
+        .movie-banner__description {
+            font-size: $font-size-larger;
+            line-height: 32px;
+            margin-bottom: 5.5rem;
+            font-weight: $font-weight-light;
+        }
+    }
+
+    .popular-movies-banner {
+        min-width: 1920px;
+        min-height: 100vh;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+
+        position: relative;
+
+        // padding-left: 12.75rem;
+        // padding-bottom: 9rem;
+
+        &::after {
+            position: absolute;
+            content: '';
+            width: 100%;
+            height: 100%;
+            left: 0;
+            top: 0;
+            background: linear-gradient(180deg, rgba(27, 26, 32, 0) 30.5%, #0B151B 95.96%);
+
+            z-index: 2;
+        }
+    }
+
+    .popular-movies-slider {
+        padding-left: 1rem;
+        position: absolute;
+        top: 32rem;
+        right: -25rem;
+        z-index: 9999999;
+        overflow: hidden;
+    }
+}

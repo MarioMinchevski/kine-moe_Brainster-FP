@@ -1,0 +1,110 @@
+@use '../../css/abstracts/mixins.scss' as *;
+@use '../../css/abstracts/variables.scss' as *;
+
+.artist-overview__wrap {
+    background-color: $bg-color-quaternary;
+    width: 63%;
+    height: 95vh;
+    border-radius: $border-radius-senary;
+    overflow: hidden;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 2.25rem 3.625rem;
+
+    .artist-overview__header {
+        display: flex;
+        align-items: center;
+        gap: 4rem;
+
+        position: relative;
+        margin-bottom: 3.5rem;
+
+        .artist-overview__img-box {
+            width: 341px;
+            height: 396px;
+            flex-shrink: 0;
+
+            border-radius: 57px;
+            overflow: hidden;
+            border: 2px solid rgba(255, 255, 255, 0.63);
+            filter: drop-shadow(5px 5px 20px rgba(255, 255, 255, 0.3));
+
+            img {
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+                object-position: center;
+            }
+        }
+
+        .artist-overview__description {
+            flex: 1;
+            text-align: center;
+
+            h1 {
+                font-size: $font-size-headidng-large;
+                font-weight: $font-weight-bold;
+                line-height: 1;
+                margin-bottom: 1rem;
+            }
+
+            p {
+                font-size: $font-size-small;
+                font-weight: $font-weight-bold;
+                line-height: 150%;
+                margin-bottom: 2.875rem;
+            }
+
+            .artist-see-more-btn {
+                background-color: $color-primary;
+                color: $color-base;
+                font-size: $font-size-headidng-extra-small;
+                padding: 1.25rem 5.25rem;
+                border: none;
+                border-radius: $border-radius-primary;
+
+
+                cursor: pointer;
+                transition: all 200ms ease-in-out;
+
+                &:hover {
+                    background-color: darken($color-primary, 7%);
+                }
+            }
+        }
+
+        .share-icon {
+            position: absolute;
+            right: 0rem;
+            top: 0rem;
+
+            height: 48px;
+            width: 48px;
+            border-radius: 100ch;
+            background-color: #585858;
+
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            transition: all 200ms ease-in-out;
+            cursor: pointer;
+
+            &:hover {
+                background-color: $color-primary;
+            }
+        }
+    }
+
+    .artist-overview__awards {
+        list-style: disc;
+
+        li {
+            font-size: $font-size-medium;
+            font-weight: $font-weight-bold;
+            line-height: 150%;
+        }
+    }
+}

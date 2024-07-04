@@ -1,0 +1,29 @@
+@forward './LandingPageHeader/landingPageHeader';
+@forward './StreamingLibrary/streamingLibrary';
+@forward './ArtistsLibrary/artistsLibrary';
+@forward './MovieBanner/movieBanner';
+@forward './Pricing/pricingItem';
+@forward './HomepageFooter/homepageFooter';
+@forward './Header/header';
+@forward './AsideNavBar/asideNavBar';
+@forward './MediaSliderWrap/mediaSliderWrap';
+@forward './HomeMovieBanner/homeMovieBanner';
+@forward './SignIn/signInFormBox';
+@forward './SignUp/signUpFormBox';
+@forward './CreateAccount/createAcc';
+@forward './ArtistOveriviewItem/artostOverviewItem';
+@forward './MovieOverviewItem/movieOverviewItem';
+@forward './UserProfileLayout/userProfile';
+@forward './MovieOverviewVideoPlayer/movieOverviewVideoPlayer';
+@forward './WatchVideoPlayer/watchVideoPlayer';
+@forward './SearchLayout/searchLayout';
+@forward './Community/community';
+@forward './PageNotFoundwrap/pageNotFoundWrap';
+@forward './ScreenResizeModal/screenResizeModal';
+
+// Shared components
+
+@forward './SharedComponents/MediaItemThumbnail/mediaItemThumbnail';
+@forward './SharedComponents/Footer/footer';
+@forward './SharedComponents/SignInSignUpMediaBox/signInSignUpMediaBox';
+@forward './SharedComponents/PaginationButton/paginationButton';

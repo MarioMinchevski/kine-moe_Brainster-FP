@@ -1,0 +1,168 @@
+BrainsterProjects_MarioMinchevskiFE14
+
+# Project Notes
+
+**Viewport size: 1920px x  1080px** !!MOZILLA FIREFOX!!
+
+DPR: 1.50
+
+Video presentation with most of the feautres, not all of them
+
+https://www.youtube.com/watch?v=LXDcTE_PCDA
+_____________
+
+## Description
+
+### General notes
+
+- The ux/ui students did a great job on the design, it was my job to honor their work and avoid doing too much freestyling. The design on the figma file was made on 1920px width, hence my website being made on the same resolution, almost pixel perfect. PLEASE, use Mozzila Firefox in Dev Tools because it is much better than Chrome's, e.g. in Chrome it is really difficult to see an element :hover state., in Mozzila it works perfectly.
+
+### Dependencies/npm bundles 
+
+- sass
+- react-router
+- fontawesome
+- tanstack-Query
+- framer-motion
+- react-circular-progressbar
+- yup
+
+### How to run
+
+- open the terminal in your code editor
+- npm run json-server
+- npm run dev (in different terminal)
+- open Mozilla Firefox, right click, inspect
+- set screen size to 1920px x 1080px
+- important! refresh the page
+
+### Extra features and important notes
+
+- What I thought would improve the ux, was if the "MEET THE ARTISTS" and all of the "MEDIA ITEMS HORIZONTAL SCROLLS" were turned into sliders (with drag). This is for the simple reason because, every now and then, the cursor will fall on to the horizontal scroll(per the brief), and instead of scrolling vertically and checking out the whole page, you will scroll horizontaly on that slider. If it happens once or twice, it's not a big deal. If it happens a lot, it becomes an issue. I think this will separate my work from the rest.
+
+- Since the page is not responsive, the sliders are not yet responsive as well. Their scroll width is calucalted on component load. That's why ONLY if you change the screen size, you need to refresh the page
+
+- Progress bar in the create account page. In the design, there are only numbers. E.g. 3 on step 3. That doesn't tell you much. So it either had to be e.g. 3 of 10, or do it the modern way with a progress bar that is filled and decresead on every step
+
+- Welcome message on /home page
+
+- Completely custom made share box, fully functional
+
+- Log out button
+
+- play/pause and mute/unmute in movie overview
+
+- Complete feature to start a conversation/make a post in Community page, functional search bar, and filters that will show up but not defined on what should be and how to work
+
+- If you get random lines while on inspect, just zoom out and zoom in and they will be gone. Thats a bug caused by dev tools. It's non existant in real view
+
+- Media info box on watch page, sound and captions option
+
+- Pop up messages when you add or follow a user on user page
+
+- There are some already made up users in the db.json file, if you want to try out the verification
+
+##### Resize pop up
+
+- It will render on screens smaller than 1920px
+
+- Clicking on guide will navigate you to a youtube tutorial
+
+- Please use Mozilla :)
+
+##### Landing page
+
+- Custom animaations on almost all elements
+- As described in the briefing, the items in homepage-film-card-container are static and lead to nowhere. I've made that they are generated randomly out of all the movie items from the dummy daya
+- "Meet the artist" is a slider
+
+##### Sign-in
+
+- Everything is linked with the json-server. If you try to log in with an email that is non existant in the users data, you will get an error. And some other form autentications
+
+- Sign up with google works and I made sure that it takes ONLY your email
+
+##### Sign-up
+
+- Everything is linked with the json-server. If you try to create an account with an email that is already in use in the users data, you will get an error. And some other form autentications
+
+- Sign up with google works and I made sure that it takes ONLY your email
+
+##### Create accountpage
+
+- There is authentication on every step using Yup. you can go back and forth.
+
+- In the profile setup step, username and password are mandatory, description and image are not. Passwords must match
+
+##### Home page & Movies page
+
+- Everything works except the categories on the top right. Nothing was specified on what should happen when you use it 
+
+- Likes and add to watch are not linked to database for now, they are just to show off the design
+
+- The media item wraps(horizontal scroll in the brief) are now sliders with dragging
+
+- On the movies page, "Show more" cta pagination button will work when there are more categories to show
+
+##### User profile
+
+- The diagrams are filled with random data just to show the animation
+
+- Comments (not replies) are updated in the database when you leave a comment in the community section. Those comments will appear on user profile (you will get a different message if there are no comments). The comments are linked to the Post that the comment was left on
+
+- The follow and add friend buttons should not be on this page in the first place. But since there is still not an option to visit another person page, i've left them and gave them a functionality to demonstrate how it would look like when you are on someone elses profile
+
+- Make sure to try out the CTA buttons to see the pop up messages
+
+##### Movie overview page
+
+- Functional play/pause & mute/umute buttons
+
+- The cast members lead to artist overview
+
+##### Artist overview page
+
+- The media item wraps(horizontal scroll in the brief) are now sliders with dragging
+
+##### Search page
+
+- you get an initial text before you made your search (or if it is empty), you also get a random recommendation
+
+- you get a message if you search for something that is not in the database
+
+- when you get a result, you will get similar results based on genre
+
+##### Community page
+
+- Complete feature to add a post or start a discussion. This was not in the brief
+
+- Search bar is functional (searching by title)
+
+- Filters are just for show. They were not in the brief
+
+- Commenting and replying is fully functional
+
+- Likes and dislikes are the only things not linked to database (for now). But there is a counter logic and logic that prevents you for liking and disliking at once
+
+- Diagrams are filled randomly
+
+##### Watch page
+
+- Player is fully functional, forwards and backwards buttons are taking you back and forth 10s 
+
+- You CAN drag the progress bar, even outside of it
+
+- Sound option is workin, caption
+
+- Info button to show very basic information about the movie (not in the brief)
+
+- Back button to take you to this movie's movie overview page
+
+- Comment box fully functional and linked to json-file
+
+P.S.
+
+- I know the code is not optimal, it's not entirely DRY, but it will get better once I have some free time to fix it :)
+
+- Context logic for isUserLogged in is a bit confusing, feel free to contact me for a more through explanation
+

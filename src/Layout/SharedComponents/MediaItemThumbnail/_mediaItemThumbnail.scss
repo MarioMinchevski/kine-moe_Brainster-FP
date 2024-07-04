@@ -1,0 +1,38 @@
+@use '../../../css/abstracts/mixins.scss' as *;
+@use '../../../css/abstracts/variables.scss' as *;
+
+.media-item-thumbnail {
+    min-width: 276px;
+    max-height: 388px;
+    border-radius: $border-radius-primary;
+    overflow: hidden;
+    transition: all 200ms ease-in-out;
+
+    img {
+        width: 100%;
+        pointer-events: none;
+    }
+
+    &:hover {
+        transform: scale(1.05);
+        box-shadow: 5px 5px 12px rgba(255, 255, 255, 0.3),
+            -5px -5px 12px rgba(255, 255, 255, 0.3);
+    }
+
+    &.artist {
+        min-width: unset;
+        max-height: unset;
+
+        width: 163px;
+        height: 229px;
+    }
+
+    &.similar-results-item {
+        img {
+            width: 100%;
+            pointer-events: auto;
+        }
+
+        cursor: pointer;
+    }
+}

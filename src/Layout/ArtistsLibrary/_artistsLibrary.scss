@@ -1,0 +1,48 @@
+@use '../../css/abstracts/mixins.scss' as *;
+@use '../../css/abstracts/variables.scss' as *;
+
+.artist-library {
+    text-align: center;
+    padding-top: 4rem;
+    // padding-inline: 3rem;
+    margin-bottom: 3.875rem;
+
+    h2 {
+        font-size: $font-size-headidng-main;
+        font-weight: $font-weight-bold;
+        text-transform: uppercase;
+        margin-bottom: 4.5rem;
+    }
+
+    .carousel {
+        cursor: grab;
+        overflow: visible;
+        background-color: $bg-color-primary;
+        padding-inline: 3rem;
+
+        .inner-carousel {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 2.35rem; // 
+            min-width: 100%;
+            background-color: $bg-color-primary;
+
+            .artist-library-item {
+                min-width: 586px;
+                filter: $box-shadow-tertiary;
+                transition: all 200ms ease-in-out;
+                position: relative;
+
+                img {
+                    pointer-events: none;
+                }
+
+                &:hover {
+                    transform: scale(1.05) translateY(-16px);
+                    filter: drop-shadow(5px 5px 20px rgba(255, 255, 255, 0.3))
+                }
+            }
+        }
+    }
+}

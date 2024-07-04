@@ -1,0 +1,17 @@
+@use './variables.scss' as *;
+
+%button-primary {
+    background-color: $color-primary;
+    color: $color-base;
+    font-size: $font-size-extra-large;
+    font-weight: $font-weight-bold;
+
+    border: none;
+    border-radius: $border-radius-primary;
+    padding-block: 0.35rem;
+    min-width: 338px;
+    box-shadow: $box-shadow-primary;
+
+    cursor: pointer;
+    transition: all 200ms ease-in-out;
+}

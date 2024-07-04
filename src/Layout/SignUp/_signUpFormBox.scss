@@ -1,0 +1,201 @@
+@use '../../css/abstracts/mixins.scss' as *;
+@use '../../css/abstracts/variables.scss' as *;
+
+@use '../../css/abstracts/mixins.scss' as *;
+@use '../../css/abstracts/variables.scss' as *;
+
+.sign-up-form-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+
+    flex: 1;
+
+    .sign-up-title {
+        font-size: $font-size-headidng-smaller;
+        font-weight: $font-weight-bold;
+        line-height: 24px;
+        margin-bottom: 1.5rem;
+    }
+
+    .sign-up-form-inner-wrap {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+        .sign-up-form {
+            display: flex;
+            flex-direction: column;
+            gap: 1.5rem;
+            width: 69.5%;
+
+            .form-group {
+                .form-control {
+                    background-color: transparent;
+                    border: 1px solid $color-base;
+                    font-size: $font-size-smaller;
+                    line-height: 24px;
+                    color: $color-base;
+                    outline: $color-primary;
+                    border-radius: 100ch;
+                    width: 100%;
+
+                    padding: 0.75rem 1.5rem;
+                    transition: all 200ms ease-in-out;
+
+                    &::placeholder {
+                        opacity: 40%;
+                    }
+
+                    &:focus {
+                        border: 1px solid $color-primary;
+                    }
+
+                    &:hover {
+                        border: 1px solid $color-primary;
+                    }
+                }
+
+                .message {
+                    display: none;
+                    font-size: 14px;
+                    line-height: 24px;
+                    color: $color-secondary;
+
+                    margin-top: 0.25rem;
+                    text-align: center;
+
+                    &.visible {
+                        display: block;
+                    }
+                }
+            }
+
+            .register-btn {
+                background-color: $color-primary;
+                color: $color-base;
+                font-size: $font-size-headidng-smallest;
+                line-height: 24px;
+                width: 100%;
+                text-align: center;
+                border-radius: 100ch;
+                padding-block: 0.75rem;
+                border: none;
+
+                cursor: pointer;
+                transition: all 200ms ease-in-out;
+
+                &:hover {
+                    background-color: darken($color-primary, 7%);
+                }
+            }
+        }
+
+    }
+
+    .sign-up-form-inner-wrap__socials {
+        width: 69.5%;
+        display: flex;
+        flex-direction: column;
+        gap: 0.875rem;
+
+        .socials-btn {
+            display: flex;
+            align-items: center;
+
+            background-color: transparent;
+            border: 1px solid $color-base;
+            padding: 0.75rem;
+            border-radius: 100ch;
+
+            cursor: pointer;
+
+            transition: all 200ms ease-in-out;
+
+            &:hover {
+                border: 1px solid $color-primary;
+            }
+
+            span {
+                color: $color-base;
+                font-size: $font-size-medium;
+                line-height: 24px;
+
+                text-align: center;
+                margin-inline: auto;
+            }
+
+        }
+    }
+
+    .separator {
+        margin-block: 1.875rem;
+
+        line-height: 24px;
+        font-size: $font-size-extra-small;
+
+        position: relative;
+        text-align: center;
+        width: 69.5%;
+
+        &::after {
+            position: absolute;
+            content: '';
+            left: 0;
+            top: 50%;
+            transform: translateY(-50%);
+            width: 45%;
+            background-color: white;
+            height: 1px;
+        }
+
+        &::before {
+            position: absolute;
+            content: '';
+            right: 0;
+            top: 50%;
+            transform: translateY(-50%);
+            width: 45%;
+            background-color: white;
+            height: 1px;
+        }
+    }
+
+    .incorrect-creditentials-message {
+        position: absolute;
+        left: 50%;
+        bottom: 5rem;
+        transform: translate(-50%, 0%);
+
+        min-width: 65%;
+
+        text-align: center;
+        font-size: $font-size-small;
+        color: $color-secondary;
+
+        opacity: 0;
+        transition: all 200ms ease-in-out;
+
+        &.show {
+            opacity: 1;
+        }
+    }
+
+    .back-to-login {
+        font-size: $font-size-smaller;
+        font-style: italic;
+        line-height: 24px;
+        color: $color-base;
+
+        margin-top: 0.875rem;
+        transition: all 200ms ease-in-out;
+
+        &:hover {
+            color: $color-primary;
+        }
+    }
+}

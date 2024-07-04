@@ -1,0 +1,39 @@
+@use '../../css/abstracts/mixins.scss' as *;
+@use '../../css/abstracts/variables.scss' as *;
+
+.streaming-library {
+    padding-top: 24.25rem;
+    padding-inline: 3.125rem;
+
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1.844rem;
+    justify-content: center;
+
+    .streaming-library-item {
+        text-align: center;
+        transition: all 300ms ease-in-out;
+
+        h2 {
+            font-weight: $font-weight-bold;
+            font-size: $font-size-headidng-smaller;
+            line-height: 40px;
+            margin-bottom: 0.75rem;
+            color: $color-base;
+            transition: all 200ms ease-in-out;
+        }
+
+        img {
+            box-shadow: $box-shadow-secondary;
+        }
+
+        &:hover {
+            transform: scale(1.05);
+
+            h2 {
+                color: $color-primary;
+            }
+        }
+    }
+}

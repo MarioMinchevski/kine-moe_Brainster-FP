@@ -1,0 +1,300 @@
+@use '../../css/abstracts/mixins.scss' as *;
+@use '../../css/abstracts/variables.scss' as *;
+
+.user-profile {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+
+    .user-profile-header {
+        height: 30.85vh;
+        background-image: url('/userProfile/user-profile-banner-img.png');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+    .user-profile-main {
+        padding-left: 130px;
+        display: flex;
+        flex: 1;
+
+        .user-info {
+            max-width: 376px;
+            background-color: $bg-color-quinary;
+            position: relative;
+            flex: 1;
+
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+            padding-inline: 2.25rem;
+            padding-top: 7.5rem;
+            padding-bottom: 1.5rem;
+
+            .user-info__img-box {
+                position: absolute;
+                width: 214px;
+                height: 214px;
+                border-radius: 100ch;
+
+                top: 0;
+                left: 50%;
+                transform: translate(-50%, -50%);
+
+                .user-img {
+                    object-fit: cover;
+                    object-position: center;
+                    width: 100%;
+                    height: 100%;
+                    border-radius: 100ch;
+                }
+
+                .verified-artist {
+                    position: absolute;
+                    right: 0;
+                    top: 0;
+                }
+            }
+
+            .user-info__header {
+                margin-bottom: 1.75rem;
+
+                h1 {
+                    font-size: $font-size-headidng-smaller;
+                    font-weight: $font-weight-bold;
+                    line-height: 1;
+                    margin-bottom: 0.35rem;
+                }
+
+                h2 {
+                    font-size: $font-size-medium;
+                    font-style: italic;
+                    opacity: 70%;
+                    line-height: 1;
+                }
+            }
+
+            .user-info__description {
+                font-size: $font-size-smaller;
+                font-weight: $font-weight-medium;
+                margin-bottom: 2rem;
+            }
+
+            .user-info__badges {
+                padding-bottom: 1.625rem;
+                border-bottom: 2px solid rgba($color-base, .5);
+
+                h3 {
+                    font-size: $font-size-larger;
+                    font-weight: $font-weight-bold;
+                    line-height: 1;
+                    margin-bottom: 1.125rem;
+                }
+
+                .badges-wrap {
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    gap: 2.125rem;
+                }
+            }
+
+            .user-profile__cta-button-container {
+                position: absolute;
+                right: -12.55rem;
+                top: -3.5rem;
+                z-index: 200;
+
+                display: flex;
+                align-items: center;
+                gap: 2rem;
+
+                .user-profile-icon-button {
+                    background-color: transparent;
+                    border: none;
+                    cursor: pointer;
+
+                    img {
+                        transition: all 200ms ease-in-out;
+                    }
+
+                    svg {
+                        font-size: 2rem;
+                        color: $color-base;
+                        transition: all 200ms ease-in-out;
+                    }
+
+                    &:hover {
+                        img {
+                            filter: invert(53%) sepia(80%) saturate(3003%) hue-rotate(65deg) brightness(94%) contrast(98%);
+                        }
+
+                        svg {
+                            color: $color-primary;
+                        }
+                    }
+
+                    &.filled {
+                        svg {
+                            color: $color-primary;
+                        }
+                    }
+                }
+            }
+
+            .user-info-message-wrap {
+                position: absolute;
+                left: 50%;
+                top: -30%;
+                transform: translate(-50%, 0%);
+
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: flex-end;
+
+                gap: 1rem;
+                min-height: 100px;
+            }
+
+            .user-info-message {
+                position: relative;
+                background-color: $color-base;
+                border-radius: $border-radius-secondary;
+                padding: 0.5rem;
+                white-space: nowrap;
+
+                p {
+                    color: $color-senary;
+
+                }
+
+                span {
+                    font-weight: $font-weight-bold;
+                }
+
+                &::after {
+                    content: '';
+                    position: absolute;
+                    bottom: -8px;
+                    /* Adjust as needed */
+                    left: 50%;
+                    transform: translateX(-50%);
+                    width: 0;
+                    height: 0;
+                    border-left: 8px solid transparent;
+                    border-right: 8px solid transparent;
+                    border-top: 8px solid $color-base;
+                }
+            }
+        }
+    }
+
+    .user-profile-main__inner-wrap {
+        flex: 1;
+        padding-top: 2rem;
+        padding-inline: 2.75rem;
+        overflow: hidden;
+        position: relative;
+
+        .user-comments {
+            display: flex;
+            flex-direction: column;
+            margin-bottom: 3rem;
+
+            .user-comment__wrap {
+                display: flex;
+                flex-direction: column;
+                align-items: start;
+                gap: 1rem;
+
+                .not-yet-commented {
+                    font-size: $font-size-medium;
+                    font-weight: $font-weight-bold;
+                }
+            }
+
+            .commments-from-title {
+                font-size: $font-size-larger;
+                font-weight: $font-weight-bold;
+                line-height: 1;
+                margin-bottom: 1.5rem;
+            }
+
+            .user-comment-item {
+                background: rgba(0, 0, 0, 0.75);
+                box-shadow: $box-shadow-quaternary;
+                border-radius: $border-radius-quaternary;
+                padding: 0.5rem 0.625rem;
+                color: $color-base;
+                border: 2px solid transparent;
+                transition: all 200ms ease-in-out;
+
+                .comment-from {
+                    display: flex;
+                    align-items: center;
+                    gap: 0.5rem;
+                    margin-bottom: 0.35rem;
+
+                    .comment-from__user-img-box {
+                        width: 34px;
+                        height: 34px;
+                        border-radius: 100ch;
+                        overflow: hidden;
+
+                        img {
+                            width: 100%;
+                            height: 100%;
+                            object-fit: cover;
+                            object-position: center;
+                        }
+                    }
+
+                    .comment-from__username {
+                        font-size: $font-size-smaller;
+                        font-weight: $font-weight-bold;
+                        line-height: 20px;
+                    }
+
+                }
+
+                .comment-text {
+                    font-weight: $font-weight-bold;
+                    line-height: 20px;
+                }
+
+                &:hover {
+                    border: 2px solid $color-primary;
+                }
+            }
+        }
+    }
+}
+
+.user-info__diagrams {
+    margin-top: 1.625rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3.875rem;
+
+    .comments-diagram,
+    .discussion-diagram {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+
+        .comments-diagram__inner-wrap,
+        .discussion-diagram__inner-wrap {
+            width: 90px;
+            height: 90px;
+        }
+
+        span {
+            font-size: $font-size-extra-small;
+            font-weight: $font-weight-bold;
+            margin-top: 0.75rem;
+        }
+    }
+}

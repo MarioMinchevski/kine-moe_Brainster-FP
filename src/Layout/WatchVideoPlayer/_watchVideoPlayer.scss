@@ -1,0 +1,404 @@
+@use '../../css/abstracts/mixins.scss' as *;
+@use '../../css/abstracts/variables.scss' as *;
+
+.watch-page {
+    height: 100vh;
+    position: relative;
+
+    .watch-page__header-buttons {
+        position: absolute;
+        width: 100%;
+        top: 0;
+        left: 0;
+
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        padding-top: 1.875rem;
+        padding-inline: 3.125rem;
+
+        .back-button {
+            height: 57px;
+            width: 57px;
+            border-radius: 100ch;
+            border: 2px solid $color-senary;
+            background-color: transparent;
+            color: $color-senary;
+            font-size: 2rem;
+
+            cursor: pointer;
+            transition: all 200ms ease-in-out;
+
+            &:hover {
+                border: 2px solid $color-secondary;
+                color: $color-secondary;
+            }
+        }
+
+        .info-button,
+        .close-button {
+            height: 57px;
+            width: 57px;
+            border-radius: 100ch;
+            border: 2px solid $color-senary;
+            background-color: transparent;
+            color: $color-senary;
+            font-weight: $font-weight-bold;
+            font-size: 2rem;
+
+            cursor: pointer;
+            transition: all 200ms ease-in-out;
+
+            &:hover {
+                border: 2px solid $color-secondary;
+                color: $color-secondary;
+            }
+
+            &.hide {
+                opacity: 0;
+            }
+        }
+
+        .close-button {
+            position: absolute;
+            top: 3rem;
+            right: 4rem;
+            color: $color-base;
+            z-index: 99999;
+            border: 2px solid $color-base;
+        }
+    }
+
+    .watch-player {
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .video-controls {
+        position: absolute;
+        width: 100%;
+        bottom: 2.25rem;
+        left: 0;
+
+        padding-inline: 3.125rem;
+
+        .video-progress-bar {
+            background-color: #989898;
+            height: 6px;
+            border-radius: 100ch;
+            margin-bottom: 2.375rem;
+
+            position: relative;
+            cursor: pointer;
+
+            .video-progress-bar__filled {
+                position: absolute;
+                left: 0;
+                top: 0;
+                height: 100%;
+                // width: 50%;
+                border-radius: 100ch;
+
+                background-color: $color-secondary;
+            }
+        }
+
+        .video-controls__wrap {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+
+            .video-time {
+
+                p,
+                .current-time,
+                .total-time {
+                    font-size: $font-size-headidng-extra-small;
+                    font-weight: $font-weight-bold;
+                    line-height: 1;
+                }
+            }
+
+            .play-pause-container {
+                display: flex;
+                align-items: center;
+                gap: 0.625rem;
+
+                .play-pause-cta-button {
+                    background-color: transparent;
+                    border: none;
+                    cursor: pointer;
+
+                    width: 29px;
+                    height: 25px;
+
+                    &.main {
+                        width: 49px;
+                        height: 49px;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                    }
+
+                    svg {
+                        font-size: 3rem;
+                        color: $color-base !important;
+                        transition: all 200ms ease-in-out;
+                        fill: $color-base !important;
+                    }
+
+                    &:hover {
+
+                        .play-btn-svg,
+                        .backwards-btn-svg,
+                        .forwards-btn-svg {
+                            fill: $color-secondary !important;
+                            color: $color-secondary !important;
+                            ;
+                        }
+                    }
+                }
+            }
+
+            .player-other-controls {
+                display: flex;
+                align-items: center;
+                gap: 1.875rem;
+
+                position: relative;
+
+                .movie-comments-box {
+                    position: absolute;
+                    top: -41.3rem;
+                    right: 0;
+
+                    display: flex;
+                    flex-direction: column;
+                    gap: 0.5rem;
+                    justify-content: end;
+
+                    min-height: 600px;
+                    width: 90%;
+
+                    opacity: 0;
+                    transition: all 300ms ease-in-out;
+
+                    &.visible {
+                        opacity: 1;
+                    }
+
+                    .movie-comment-item {
+                        width: 100%;
+                        padding: 0.5rem 0.625rem;
+                        border-radius: $border-radius-quaternary;
+                        background-color: rgba(black, $alpha: 0.75);
+
+
+
+                        .comment-from {
+                            margin-bottom: 2px;
+                            display: flex;
+                            align-items: center;
+                            gap: 0.5rem;
+
+                            .comment-from__img-box {
+                                width: 33px;
+                                height: 33px;
+                                border-radius: 100ch;
+                                overflow: hidden;
+
+                                img {
+                                    width: 100%;
+                                    height: 100%;
+                                }
+                            }
+
+                            span {
+                                font-size: $font-size-smaller;
+                                font-weight: $font-weight-bold;
+                                line-height: 1;
+                            }
+                        }
+
+                        .comment-text {
+                            font-size: $font-size-smaller;
+                            font-weight: $font-weight-bold;
+                        }
+                    }
+
+                    .leave-a-comment-box {
+                        width: 100%;
+                        padding: 0.75rem 0.625rem;
+                        border-radius: $border-radius-quaternary;
+                        background-color: rgba(black, $alpha: 0.75);
+
+                        .comment-area {
+                            width: 100%;
+                            margin-bottom: 0.5rem;
+                            border: none;
+                            outline: none;
+                            border-radius: $border-radius-secondary;
+                            background-color: rgba($color-base, 0.1);
+                            color: $color-base;
+                            font-size: $font-size-smaller;
+                            font-weight: $font-weight-bold;
+                            padding: 0.5rem;
+
+                            &::placeholder {
+                                color: rgba($color-base, 0.5);
+                            }
+                        }
+
+                        .comment-btn {
+                            background-color: $color-secondary;
+                            color: $color-base;
+                            font-size: $font-size-smaller;
+                            font-weight: $font-weight-bold;
+                            border: none;
+                            border-radius: $border-radius-secondary;
+                            padding: 0.25rem 0.75rem;
+                            cursor: pointer;
+                            transition: all 200ms ease-in-out;
+
+                            &:hover {
+                                background-color: darken($color-secondary, 7%);
+                            }
+                        }
+
+                        .comment-watch-area {
+                            margin-bottom: 0.5rem;
+                            border: none;
+                            outline: none;
+                            border: 2px solid transparent;
+                            transition: all 200ms ease-in-out;
+                            padding: 0.25rem;
+                            border-radius: $border-radius-secondary;
+
+                            &:focus {
+                                border: 2px solid $color-secondary;
+                            }
+                        }
+                    }
+                }
+
+                .volume-wrap {
+                    display: flex;
+                    align-items: center;
+                    gap: 1rem;
+                }
+
+                .other-controls-cta-button {
+                    background-color: transparent;
+                    border: none;
+                    cursor: pointer;
+
+                    svg {
+                        color: $color-base !important;
+                        transition: all 200ms ease-in-out;
+                        fill: $color-base !important;
+                    }
+
+                    &:hover {
+                        .other-cta-btn {
+                            fill: $color-secondary !important;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    input[type='range'] {
+        -webkit-appearance: none;
+        overflow: hidden;
+        outline: none;
+        width: 150px;
+        background-color: transparent;
+        height: 20px;
+    }
+
+    input[type='range']::-webkit-slider-runnable-track {
+        height: 20px;
+        -webkit-appearance: none;
+        color: $color-secondary;
+        margin-top: -1px;
+    }
+
+    input[type='range']::-webkit-slider-thumb {
+        width: 20px;
+        -webkit-appearance: none;
+        height: 20px;
+        cursor: ew-resize;
+        background: #434343;
+        box-shadow: -80px 0 0 80px$color-secondary;
+        border: none;
+        outline: none;
+    }
+
+    input[type="range"]::-moz-range-progress {
+        background-color: $color-secondary;
+        height: 10px;
+        border-radius: 100ch;
+        outline: none;
+        border: none;
+    }
+
+    input[type="range"]::-moz-range-track {
+        background-color: white;
+        height: 10px;
+        border-radius: 100ch;
+        outline: none;
+        border: none;
+    }
+
+    input[type="range"]::-ms-fill-lower {
+        background-color: $color-secondary;
+        height: 10px;
+        border-radius: 100ch;
+        outline: none;
+        border: none;
+    }
+
+    .media-info-box {
+        position: absolute;
+        top: 2rem;
+        right: 3rem;
+
+        background-color: $bg-color-primary;
+        background-color: rgba($bg-color-primary, $alpha: 0.6);
+        color: $color-base;
+        display: flex;
+        flex-direction: column;
+
+        padding: 1rem;
+        border-radius: $border-radius-quaternary;
+        gap: 0.75rem;
+
+        max-width: 500px;
+
+        h1,
+        h2 {
+            color: $color-secondary;
+            font-size: $font-size-extra-large;
+            font-weight: $font-weight-bold;
+        }
+
+        p,
+        span {
+            font-size: $font-size-medium;
+            font-weight: $font-weight-bold;
+        }
+    }
+
+    .captions-box {
+        position: absolute;
+        left: 50%;
+        bottom: 10rem;
+        transform: translateX(-50%);
+
+        p {
+            font-size: $font-size-headidng-medium;
+        }
+    }
+}

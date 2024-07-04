@@ -1,0 +1,13 @@
+@use '../../../css/abstracts/mixins.scss' as *;
+@use '../../../css/abstracts/variables.scss' as *;
+
+.sign-in-media-box {
+    position: relative;
+
+    .media-box-logo {
+        position: absolute;
+        left: 50%;
+        top: 12.5rem;
+        transform: translateX(-50%);
+    }
+}

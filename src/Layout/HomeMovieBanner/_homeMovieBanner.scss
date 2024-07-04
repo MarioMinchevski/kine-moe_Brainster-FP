@@ -1,0 +1,18 @@
+@use '../../css/abstracts/mixins.scss' as *;
+@use '../../css/abstracts/variables.scss' as *;
+
+.home-movie-banner {
+    margin-bottom: 5.25rem;
+
+    .home-movie-banner__title {
+        font-size: $font-size-headidng-smaller;
+        font-weight: $font-weight-bold;
+        line-height: 32px;
+        margin-bottom: 1.5rem;
+    }
+
+    img {
+        object-fit: cover;
+        object-position: center;
+    }
+}

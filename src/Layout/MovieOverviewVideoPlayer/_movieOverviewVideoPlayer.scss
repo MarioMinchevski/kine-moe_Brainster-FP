@@ -1,0 +1,7 @@
+@use '../../css/abstracts/mixins.scss' as *;
+@use '../../css/abstracts/variables.scss' as *;
+
+.movie-trailer {
+    height: 100%;
+    object-fit: cover;
+}
