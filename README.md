@@ -6,12 +6,14 @@ BrainsterProjects_MarioMinchevskiFE14
 
 DPR: 1.50
 
-Video presentation with most of the feautres, not all of them
+Video presentation with most of the feautres
 
-https://screenapp.io/app/#/library/631073d89921c20014bdc1d7/default/ea348f26-0e50-4a2c-8f8c-9e0edce1318f
+https://www.youtube.com/watch?v=LXDcTE_PCDA
 _____________
 
 ## Description
+
+This was the final project of my one-year journey at the Brainster Frontend Academy. Made for a real client, it was an exciting challenge. It was also a kind of "competition" where only one solution would win out of the two groups of frontend students working on it. My solution turned out to be the winning one :)
 
 ### General notes
 
